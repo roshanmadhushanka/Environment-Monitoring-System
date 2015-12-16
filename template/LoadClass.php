@@ -15,3 +15,21 @@ include './database/DBase.php';
 //ROUTE
 include $controller.'LocationController.php';
 include $model.'Location.php';
+
+include $controller.'LoginController.php';
+include $model.'Session.php';
+
+include $controller.'UserController.php';
+include $model.'User.php';
+
+include $controller.'UserLoginController.php';
+include $model.'UserLogin.php';
+
+include $controller.'UserTypeController.php';
+include $model.'UserType.php';
+
+include $controller.'SensorTypeController.php';
+include $model.'SensorType.php';
+
+include $controller.'SensorStatusController.php';
+include $model.'SensorStatus.php';

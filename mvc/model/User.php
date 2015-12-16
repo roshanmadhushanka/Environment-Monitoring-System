@@ -110,4 +110,6 @@ private $nic;
         $this->initials = $initials;
         $this->nic = $nic;
     }
+
+
 }
