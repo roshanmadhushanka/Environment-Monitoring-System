@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="" />
     <ignored path="ozious.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -34,7 +32,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34754798">
+            <state vertical-scroll-proportion="0.47547975">
               <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
               <folding>
                 <element signature="e#122#136#0#PHP" expanded="true" />
@@ -46,7 +44,7 @@
       <file leaf-file-name="SensorTypeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/controller/SensorTypeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.846154">
+            <state vertical-scroll-proportion="0.0">
               <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <marker date="1450280329152" expanded="true" signature="315:417" placeholder="INSERT INTO `sensor_type`..." />
@@ -62,7 +60,7 @@
       <file leaf-file-name="LoadClass.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/LoadClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.192307">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding />
             </state>
@@ -72,7 +70,7 @@
       <file leaf-file-name="SensorStatusController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/controller/SensorStatusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="31.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1450280380979" expanded="true" signature="321:399" placeholder="INSERT INTO `sensor_status`..." />
@@ -88,7 +86,7 @@
       <file leaf-file-name="UserLoginController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/controller/UserLoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.230769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <marker date="1450283095185" expanded="true" signature="281:394" placeholder="SELECT * FRO..user_login..." />
@@ -179,7 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,7 +244,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,10 +358,8 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21303074" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21303074" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17507887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -371,7 +367,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -418,6 +416,39 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mvc/controller/SensorStatusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1450280380979" expanded="true" signature="321:399" placeholder="INSERT INTO `sensor_status`..." />
+            <marker date="1450280380979" expanded="true" signature="630:659" placeholder="SELECT * FRO..sensor_status..." />
+            <marker date="1450280380979" expanded="true" signature="1109:1183" placeholder="SELECT * FRO..sensor_status..." />
+            <marker date="1450280380979" expanded="true" signature="1525:1594" placeholder="SELECT * FRO..sensor_status..." />
+            <marker date="1450280380979" expanded="true" signature="1950:2068" placeholder="UPDATE `sens..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/UserLoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <marker date="1450283095185" expanded="true" signature="281:394" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450283095185" expanded="true" signature="555:826" placeholder="INSERT INTO `user_login`..." />
+            <marker date="1450283095185" expanded="true" signature="1090:1193" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450283095185" expanded="true" signature="1729:1792" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450283095185" expanded="true" signature="2218:2242" placeholder="UPDATE `user..." />
+            <marker date="1450283095185" expanded="true" signature="2218:2322" placeholder="UPDATE `user..." />
+            <marker date="1450283095185" expanded="true" signature="2486:2520" placeholder="UPDATE `user..." />
+            <marker date="1450283095185" expanded="true" signature="2486:2540" placeholder="UPDATE `user..." />
+            <marker date="1450283095185" expanded="true" signature="2486:2590" placeholder="UPDATE `user..." />
+            <marker date="1450283095185" expanded="true" signature="2756:2856" placeholder="UPDATE `user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -771,7 +802,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/SensorStatusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1450280380979" expanded="true" signature="321:399" placeholder="INSERT INTO `sensor_status`..." />
@@ -785,7 +816,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/LoadClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.192307">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding />
         </state>
@@ -807,7 +838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/SensorTypeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.846154">
+        <state vertical-scroll-proportion="0.0">
           <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
           <folding>
             <marker date="1450280329152" expanded="true" signature="315:417" placeholder="INSERT INTO `sensor_type`..." />
@@ -821,7 +852,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/UserLoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
             <marker date="1450283095185" expanded="true" signature="281:394" placeholder="SELECT * FRO..user_login..." />
@@ -840,7 +871,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34754798">
+        <state vertical-scroll-proportion="0.47547975">
           <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
           <folding>
             <element signature="e#122#136#0#PHP" expanded="true" />
