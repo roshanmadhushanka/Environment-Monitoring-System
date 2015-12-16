@@ -13,23 +13,17 @@ $model = './mvc/model/';
 include './database/DBase.php';
 
 //ROUTE
+
+//Controller
 include $controller.'LocationController.php';
+include $controller.'ManufacturerController.php';
+include $controller.'ReadingController.php';
+include $controller.'SensorController.php';
+include $controller.'SensorBoardController.php';
+
+//Model
 include $model.'Location.php';
-
-include $controller.'LoginController.php';
-include $model.'Session.php';
-
-include $controller.'UserController.php';
-include $model.'User.php';
-
-include $controller.'UserLoginController.php';
-include $model.'UserLogin.php';
-
-include $controller.'UserTypeController.php';
-include $model.'UserType.php';
-
-include $controller.'SensorTypeController.php';
-include $model.'SensorType.php';
-
-include $controller.'SensorStatusController.php';
-include $model.'SensorStatus.php';
+include $model.'Manufacturer.php';
+include $model.'Reading.php';
+include $model.'Sensor.php';
+include $model.'SensorBoard.php';
