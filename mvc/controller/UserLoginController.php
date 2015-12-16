@@ -31,8 +31,6 @@ class UserLoginController
         else{
             return false;
         }
-
-
     }
 
 
