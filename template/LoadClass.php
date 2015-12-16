@@ -20,6 +20,7 @@ include $controller.'ManufacturerController.php';
 include $controller.'ReadingController.php';
 include $controller.'SensorController.php';
 include $controller.'SensorBoardController.php';
+include $controller.'UserLoginController.php';
 
 //Model
 include $model.'Location.php';
@@ -27,3 +28,4 @@ include $model.'Manufacturer.php';
 include $model.'Reading.php';
 include $model.'Sensor.php';
 include $model.'SensorBoard.php';
+include $model.'UserLogin.php';

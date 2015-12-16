@@ -17,15 +17,27 @@ class UserLoginController
 
 
     public function addUserLogin(UserLogin $ul){
-        $query = "INSERT INTO `user_login`(`user_iduser`, `username`, `password`, `status`, `user_type_iduser_type`) VALUES ('".$ul->getUserIduser()."', '".$ul->getUsername()."', '".$ul->getPassword()."', '".$ul->getStatus()."', '".$ul->getUserTypeIduserType()."')";
+
+        $query = "SELECT * FROM `user_login` WHERE `username`='".$ul->getUsername()."' AND `password`=MD5('".$ul->getPassword()."')";
         $this->con->openConnection();
-        $this->con->executeRawQuery($query);
-        $this->con->closeConnection();
+        $result = $this->con->executeRawQuery($query);
+
+        if(mysqli_num_rows($result)==0) {
+            $query = "INSERT INTO `user_login`(`user_iduser`, `username`, `password`, `status`, `user_type_iduser_type`) VALUES ('" . $ul->getUserIduser() . "', '" . $ul->getUsername() . "', MD5('" . $ul->getPassword() . "'), '" . $ul->getStatus() . "', '" . $ul->getUserTypeIduserType() . "')";
+            $this->con->executeRawQuery($query);
+            $this->con->closeConnection();
+            return true;
+        }
+        else{
+            return false;
+        }
+
+
     }
 
 
     public function getUserLogin($username, $password){
-        $query = "SELECT * FROM `user_login` WHERE `username`='".$username."' AND `password`='".$password."' LIMIT 1";
+        $query = "SELECT * FROM `user_login` WHERE `username`='".$username."' AND `password`=MD5('".$password."') LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);
 
@@ -51,5 +63,30 @@ class UserLoginController
         $this->con->closeConnection();
         return $ul;
     }
+
+
+    public function updatePassword(UserLogin $ul){
+        $query = "UPDATE `user_login` SET password='".$ul->getPassword()."' WHERE iduser_login='".$ul->getIduserLogin()."'";
+        $this->con->openConnection();
+        $this->con->executeRawQuery($query);
+
+    }
+
+
+    public function updateUsername(UserLogin $ul){
+        $query = "UPDATE `user_login` SET username='".$ul->getUsername()."' WHERE iduser_login='".$ul->getIduserLogin()."'";
+        $this->con->openConnection();
+        $this->con->executeRawQuery($query);
+
+    }
+
+
+    public function updateUserStatus(UserLogin $ul){
+        $query = "UPDATE `user_login` SET status='".$ul->getStatus()."' WHERE iduser_login='".$ul->getIduserLogin()."'";
+        $this->con->openConnection();
+        $this->con->executeRawQuery($query);
+
+    }
+
 
 }

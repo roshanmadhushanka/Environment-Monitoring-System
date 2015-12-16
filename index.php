@@ -52,12 +52,24 @@
             //$s = new Sensor('3', '1', '2015-12-17', '1', '1');
             //$sen_controller->update($s);
 
-            $sen_board_controller = new SensorBoardController();
+            /*$sen_board_controller = new SensorBoardController();
             //$sen = new SensorBoard('', '', '1', '2');
             $sen = $sen_board_controller->selectAll();
             foreach($sen as $s){
                 echo $s->getIdsensorBoard().'<br>';
-            }
+            }*/
+
+
+        $ul = new UserLogin('1','1','vini_rulz','123','Active','1');
+        $ulc = new UserLoginController();
+        $ul=$ulc->addUserLogin($ul);
+
+        if($ul){
+            echo 'success';
+        }
+        else{
+            echo 'failed';
+        }
 
 
         ?>
