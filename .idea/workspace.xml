@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/SensorBoardController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/SensorController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/LoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/SensorStatusController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/SensorTypeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/UserController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/UserLoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/UserTypeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/LocationController.php" afterPath="$PROJECT_DIR$/mvc/controller/LocationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/ManufacturerController.php" afterPath="$PROJECT_DIR$/mvc/controller/ManufacturerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/ReadingController.php" afterPath="$PROJECT_DIR$/mvc/controller/ReadingController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/LoadClass.php" afterPath="$PROJECT_DIR$/template/LoadClass.php" />
     </list>
     <ignored path="ozious.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +40,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.076923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="59" column="13" selection-start-line="57" selection-start-column="12" selection-end-line="59" selection-end-column="13" />
               <folding>
                 <element signature="e#122#136#0#PHP" expanded="true" />
@@ -53,25 +52,14 @@
       <file leaf-file-name="SensorController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvc/controller/SensorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81369865">
+            <state vertical-scroll-proportion="0.9139785">
               <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
-                <marker date="1450275810687" expanded="true" signature="261:363" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="261:394" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="261:428" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="261:456" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="261:485" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="660:682" placeholder="SELECT * FRO..sensor..." />
-                <marker date="1450275810687" expanded="true" signature="1187:1228" placeholder="SELECT * FRO..sensor..." />
-                <marker date="1450275810687" expanded="true" signature="1187:1236" placeholder="SELECT * FRO..sensor..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1669" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1720" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1768" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1812" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1859" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1883" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="2058:2097" placeholder="DELETE FROM ..." />
-                <marker date="1450275810687" expanded="true" signature="2058:2105" placeholder="DELETE FROM ..." />
+                <marker date="1450280966424" expanded="true" signature="261:485" placeholder="INSERT INTO `sensor`..." />
+                <marker date="1450280966424" expanded="true" signature="660:682" placeholder="SELECT * FRO..sensor..." />
+                <marker date="1450280966424" expanded="true" signature="1187:1236" placeholder="SELECT * FRO..sensor..." />
+                <marker date="1450280966424" expanded="true" signature="1630:1883" placeholder="UPDATE `sens..." />
+                <marker date="1450280966424" expanded="true" signature="2058:2105" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -80,173 +68,8 @@
       <file leaf-file-name="LoadClass.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/LoadClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.423077">
+            <state vertical-scroll-proportion="0.0">
               <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensorBoard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/model/SensorBoard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.5">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadingController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.115385">
-              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-              <folding>
-                <marker date="1450274782019" expanded="true" signature="262:337" placeholder="INSERT INTO `reading`..." />
-                <marker date="1450274782019" expanded="true" signature="262:369" placeholder="INSERT INTO `reading`..." />
-                <marker date="1450274782019" expanded="true" signature="262:370" placeholder="INSERT INTO `reading`..." />
-                <marker date="1450274782019" expanded="true" signature="262:371" placeholder="INSERT INTO `reading`..." />
-                <marker date="1450274782019" expanded="true" signature="262:395" placeholder="INSERT INTO `reading`..." />
-                <marker date="1450274782019" expanded="true" signature="262:419" placeholder="INSERT INTO `reading`..." />
-                <marker date="1450274782019" expanded="true" signature="262:441" placeholder="INSERT INTO `reading`..." />
-                <marker date="1450274782019" expanded="true" signature="262:442" placeholder="INSERT INTO `reading`..." />
-                <marker date="1450274782019" expanded="true" signature="617:640" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="1131:1180" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="1131:1188" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="1680:1728" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="1680:1752" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="1680:1760" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="2252:2300" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="2252:2324" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="2252:2332" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="2835:2896" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="2835:2906" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="2835:2930" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="2835:2938" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="3451:3481" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="3451:3500" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="3451:3529" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="3451:3551" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="3451:3565" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="4089:4138" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="4089:4157" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="4089:4159" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="4089:4169" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="4089:4190" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="4089:4212" placeholder="SELECT * FRO..reading..." />
-                <marker date="1450274782019" expanded="true" signature="4089:4226" placeholder="SELECT * FRO..reading..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensorBoardController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/SensorBoardController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.461538">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-              <folding>
-                <marker date="1450280156127" expanded="true" signature="269:356" placeholder="INSERT INTO `sensor_board`..." />
-                <marker date="1450280156127" expanded="true" signature="269:360" placeholder="INSERT INTO `sensor_board`..." />
-                <marker date="1450280156127" expanded="true" signature="269:392" placeholder="INSERT INTO `sensor_board`..." />
-                <marker date="1450280156127" expanded="true" signature="269:419" placeholder="INSERT INTO `sensor_board`..." />
-                <marker date="1450280156127" expanded="true" signature="596:624" placeholder="SELECT * FRO..sensor_board..." />
-                <marker date="1450280156127" expanded="true" signature="1125:1178" placeholder="SELECT * FRO..sensor_board..." />
-                <marker date="1450280156127" expanded="true" signature="1125:1186" placeholder="SELECT * FRO..sensor_board..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1608" placeholder="UPDATE `sens..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1654" placeholder="UPDATE `sens..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1699" placeholder="UPDATE `sens..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1749" placeholder="UPDATE `sens..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1777" placeholder="UPDATE `sens..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sensor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/model/Sensor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.153846">
-              <caret line="50" column="41" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocationController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/LocationController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.769231">
-              <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-              <folding>
-                <marker date="1450273876425" expanded="true" signature="272:374" placeholder="INSERT INTO `location`..." />
-                <marker date="1450273876425" expanded="true" signature="272:375" placeholder="INSERT INTO `location`..." />
-                <marker date="1450273876425" expanded="true" signature="272:406" placeholder="INSERT INTO `location`..." />
-                <marker date="1450273876425" expanded="true" signature="272:435" placeholder="INSERT INTO `location`..." />
-                <marker date="1450273876425" expanded="true" signature="272:437" placeholder="INSERT INTO `location`..." />
-                <marker date="1450273876425" expanded="true" signature="272:465" placeholder="INSERT INTO `location`..." />
-                <marker date="1450273876425" expanded="true" signature="272:491" placeholder="INSERT INTO `location`..." />
-                <marker date="1450273876425" expanded="true" signature="272:516" placeholder="INSERT INTO `location`..." />
-                <marker date="1450273876425" expanded="true" signature="709:768" placeholder="SELECT * FRO..location..." />
-                <marker date="1450273876425" expanded="true" signature="1185:1241" placeholder="SELECT * FRO..location..." />
-                <marker date="1450273876425" expanded="true" signature="1778:1834" placeholder="SELECT * FRO..location..." />
-                <marker date="1450273876425" expanded="true" signature="2404:2519" placeholder="SELECT * FRO..location..." />
-                <marker date="1450273876425" expanded="true" signature="3043:3067" placeholder="SELECT * FRO..location..." />
-                <marker date="1450273876425" expanded="true" signature="3601:3640" placeholder="UPDATE `loca..." />
-                <marker date="1450273876425" expanded="true" signature="3601:3686" placeholder="UPDATE `loca..." />
-                <marker date="1450273876425" expanded="true" signature="3601:3728" placeholder="UPDATE `loca..." />
-                <marker date="1450273876425" expanded="true" signature="3601:3766" placeholder="UPDATE `loca..." />
-                <marker date="1450273876425" expanded="true" signature="3601:3803" placeholder="UPDATE `loca..." />
-                <marker date="1450273876425" expanded="true" signature="3601:3845" placeholder="UPDATE `loca..." />
-                <marker date="1450273876425" expanded="true" signature="3601:3848" placeholder="UPDATE `loca..." />
-                <marker date="1450273876425" expanded="true" signature="3601:3874" placeholder="UPDATE `loca..." />
-                <marker date="1450273876425" expanded="true" signature="4058:4101" placeholder="DELETE FROM ..." />
-                <marker date="1450273876425" expanded="true" signature="4058:4109" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManufacturerController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/ManufacturerController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.730769">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-              <folding>
-                <marker date="1450274231638" expanded="true" signature="281:427" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:461" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:492" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:523" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:552" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:584" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:614" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="798:826" placeholder="SELECT * FRO..manufacturer..." />
-                <marker date="1450274231638" expanded="true" signature="1419:1472" placeholder="SELECT * FRO..manufacturer..." />
-                <marker date="1450274231638" expanded="true" signature="1419:1480" placeholder="SELECT * FRO..manufacturer..." />
-                <marker date="1450274231638" expanded="true" signature="1419:1488" placeholder="SELECT * FRO..manufacturer..." />
-                <marker date="1450274231638" expanded="true" signature="1949:1993" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2045" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2096" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2144" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2190" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2237" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2286" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2322" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2340" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2370" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="2545:2596" placeholder="DELETE FROM ..." />
-                <marker date="1450274231638" expanded="true" signature="2545:2604" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manufacturer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/model/Manufacturer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="22.884615">
-              <caret line="58" column="41" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -294,9 +117,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1375" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -323,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -337,7 +162,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
+              <option name="myItemId" value="Environment-Monitoring-System" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,21 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
+              <option name="myItemId" value="Environment-Monitoring-System" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -375,25 +186,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
+              <option name="myItemId" value="Environment-Monitoring-System" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -411,7 +204,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
+              <option name="myItemId" value="Environment-Monitoring-System" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -422,7 +215,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,19 +313,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1375" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2133922" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21303074" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -580,11 +372,98 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="13" selection-start-line="57" selection-start-column="12" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="e#122#136#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/SensorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1450280966424" expanded="true" signature="261:485" placeholder="INSERT INTO `sensor`..." />
+            <marker date="1450280966424" expanded="true" signature="660:682" placeholder="SELECT * FRO..sensor..." />
+            <marker date="1450280966424" expanded="true" signature="1187:1236" placeholder="SELECT * FRO..sensor..." />
+            <marker date="1450280966424" expanded="true" signature="1630:1883" placeholder="UPDATE `sens..." />
+            <marker date="1450280966424" expanded="true" signature="2058:2105" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/LoadClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/SensorBoard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/SensorBoardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/Sensor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/LocationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/ManufacturerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/Manufacturer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/model/SensorType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="138" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,31 +517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1450273876425" expanded="true" signature="272:374" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:375" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:406" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:435" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:437" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:465" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:491" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:516" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="709:768" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="1185:1241" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="1778:1834" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="2404:2519" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="3043:3067" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3640" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3686" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3728" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3766" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3803" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3845" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3848" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3874" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="4058:4101" placeholder="DELETE FROM ..." />
-            <marker date="1450273876425" expanded="true" signature="4058:4109" placeholder="DELETE FROM ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,31 +525,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="251" selection-start-line="17" selection-start-column="251" selection-end-line="17" selection-end-column="251" />
-          <folding>
-            <marker date="1450274231638" expanded="true" signature="281:427" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:461" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:492" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:523" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:552" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:584" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:614" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="798:826" placeholder="SELECT * FRO..manufacturer..." />
-            <marker date="1450274231638" expanded="true" signature="1419:1472" placeholder="SELECT * FRO..manufacturer..." />
-            <marker date="1450274231638" expanded="true" signature="1419:1480" placeholder="SELECT * FRO..manufacturer..." />
-            <marker date="1450274231638" expanded="true" signature="1419:1488" placeholder="SELECT * FRO..manufacturer..." />
-            <marker date="1450274231638" expanded="true" signature="1949:1993" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2045" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2096" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2144" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2190" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2237" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2286" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2322" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2340" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2370" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="2545:2596" placeholder="DELETE FROM ..." />
-            <marker date="1450274231638" expanded="true" signature="2545:2604" placeholder="DELETE FROM ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="18" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="138" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.230769">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,45 +656,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.230769">
           <caret line="68" column="29" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/LocationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.769231">
+        <state vertical-scroll-proportion="0.0">
           <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-          <folding>
-            <marker date="1450273876425" expanded="true" signature="272:374" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:375" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:406" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:435" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:437" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:465" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:491" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="272:516" placeholder="INSERT INTO `location`..." />
-            <marker date="1450273876425" expanded="true" signature="709:768" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="1185:1241" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="1778:1834" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="2404:2519" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="3043:3067" placeholder="SELECT * FRO..location..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3640" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3686" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3728" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3766" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3803" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3845" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3848" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="3601:3874" placeholder="UPDATE `loca..." />
-            <marker date="1450273876425" expanded="true" signature="4058:4101" placeholder="DELETE FROM ..." />
-            <marker date="1450273876425" expanded="true" signature="4058:4109" placeholder="DELETE FROM ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/model/Manufacturer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="22.884615">
+        <state vertical-scroll-proportion="0.0">
           <caret line="58" column="41" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="41" />
           <folding />
         </state>
@@ -883,81 +677,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/ManufacturerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.730769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-          <folding>
-            <marker date="1450274231638" expanded="true" signature="281:427" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:461" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:492" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:523" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:552" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:584" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="281:614" placeholder="INSERT INTO `manufacturer`..." />
-            <marker date="1450274231638" expanded="true" signature="798:826" placeholder="SELECT * FRO..manufacturer..." />
-            <marker date="1450274231638" expanded="true" signature="1419:1472" placeholder="SELECT * FRO..manufacturer..." />
-            <marker date="1450274231638" expanded="true" signature="1419:1480" placeholder="SELECT * FRO..manufacturer..." />
-            <marker date="1450274231638" expanded="true" signature="1419:1488" placeholder="SELECT * FRO..manufacturer..." />
-            <marker date="1450274231638" expanded="true" signature="1949:1993" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2045" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2096" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2144" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2190" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2237" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2286" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2322" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2340" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="1949:2370" placeholder="UPDATE `manu..." />
-            <marker date="1450274231638" expanded="true" signature="2545:2596" placeholder="DELETE FROM ..." />
-            <marker date="1450274231638" expanded="true" signature="2545:2604" placeholder="DELETE FROM ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.115385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding>
-            <marker date="1450274782019" expanded="true" signature="262:337" placeholder="INSERT INTO `reading`..." />
-            <marker date="1450274782019" expanded="true" signature="262:369" placeholder="INSERT INTO `reading`..." />
-            <marker date="1450274782019" expanded="true" signature="262:370" placeholder="INSERT INTO `reading`..." />
-            <marker date="1450274782019" expanded="true" signature="262:371" placeholder="INSERT INTO `reading`..." />
-            <marker date="1450274782019" expanded="true" signature="262:395" placeholder="INSERT INTO `reading`..." />
-            <marker date="1450274782019" expanded="true" signature="262:419" placeholder="INSERT INTO `reading`..." />
-            <marker date="1450274782019" expanded="true" signature="262:441" placeholder="INSERT INTO `reading`..." />
-            <marker date="1450274782019" expanded="true" signature="262:442" placeholder="INSERT INTO `reading`..." />
-            <marker date="1450274782019" expanded="true" signature="617:640" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="1131:1180" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="1131:1188" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="1680:1728" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="1680:1752" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="1680:1760" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="2252:2300" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="2252:2324" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="2252:2332" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="2835:2896" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="2835:2906" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="2835:2930" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="2835:2938" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="3451:3481" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="3451:3500" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="3451:3529" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="3451:3551" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="3451:3565" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="4089:4138" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="4089:4157" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="4089:4159" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="4089:4169" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="4089:4190" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="4089:4212" placeholder="SELECT * FRO..reading..." />
-            <marker date="1450274782019" expanded="true" signature="4089:4226" placeholder="SELECT * FRO..reading..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/LoadClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.423077">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding />
         </state>
@@ -965,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/model/Sensor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.153846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="50" column="41" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="41" />
           <folding />
         </state>
@@ -973,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.076923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="59" column="13" selection-start-line="57" selection-start-column="12" selection-end-line="59" selection-end-column="13" />
           <folding>
             <element signature="e#122#136#0#PHP" expanded="true" />
@@ -983,7 +719,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/model/SensorBoard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
@@ -991,46 +727,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/SensorBoardController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.461538">
+        <state vertical-scroll-proportion="0.0">
           <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-          <folding>
-            <marker date="1450280156127" expanded="true" signature="269:356" placeholder="INSERT INTO `sensor_board`..." />
-            <marker date="1450280156127" expanded="true" signature="269:360" placeholder="INSERT INTO `sensor_board`..." />
-            <marker date="1450280156127" expanded="true" signature="269:392" placeholder="INSERT INTO `sensor_board`..." />
-            <marker date="1450280156127" expanded="true" signature="269:419" placeholder="INSERT INTO `sensor_board`..." />
-            <marker date="1450280156127" expanded="true" signature="596:624" placeholder="SELECT * FRO..sensor_board..." />
-            <marker date="1450280156127" expanded="true" signature="1125:1178" placeholder="SELECT * FRO..sensor_board..." />
-            <marker date="1450280156127" expanded="true" signature="1125:1186" placeholder="SELECT * FRO..sensor_board..." />
-            <marker date="1450280156127" expanded="true" signature="1565:1608" placeholder="UPDATE `sens..." />
-            <marker date="1450280156127" expanded="true" signature="1565:1654" placeholder="UPDATE `sens..." />
-            <marker date="1450280156127" expanded="true" signature="1565:1699" placeholder="UPDATE `sens..." />
-            <marker date="1450280156127" expanded="true" signature="1565:1749" placeholder="UPDATE `sens..." />
-            <marker date="1450280156127" expanded="true" signature="1565:1777" placeholder="UPDATE `sens..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/SensorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81369865">
+        <state vertical-scroll-proportion="0.9139785">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
-            <marker date="1450275810687" expanded="true" signature="261:363" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="261:394" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="261:428" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="261:456" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="261:485" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="660:682" placeholder="SELECT * FRO..sensor..." />
-            <marker date="1450275810687" expanded="true" signature="1187:1228" placeholder="SELECT * FRO..sensor..." />
-            <marker date="1450275810687" expanded="true" signature="1187:1236" placeholder="SELECT * FRO..sensor..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1669" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1720" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1768" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1812" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1859" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1883" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="2058:2097" placeholder="DELETE FROM ..." />
-            <marker date="1450275810687" expanded="true" signature="2058:2105" placeholder="DELETE FROM ..." />
+            <marker date="1450280966424" expanded="true" signature="261:485" placeholder="INSERT INTO `sensor`..." />
+            <marker date="1450280966424" expanded="true" signature="660:682" placeholder="SELECT * FRO..sensor..." />
+            <marker date="1450280966424" expanded="true" signature="1187:1236" placeholder="SELECT * FRO..sensor..." />
+            <marker date="1450280966424" expanded="true" signature="1630:1883" placeholder="UPDATE `sens..." />
+            <marker date="1450280966424" expanded="true" signature="2058:2105" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
