@@ -41,7 +41,6 @@ class UserLoginController
 
     }
 
-
     public function getUserLoginById($id){
         $query = "SELECT * FROM `user_login` WHERE iduser_login='".$id."' LIMIT 1";
         $this->con->openConnection();
