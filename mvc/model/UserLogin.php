@@ -13,7 +13,6 @@ private $user_iduser;
 private $username;
 private $password;
 private $status;
-private $access_level_idaccess_level;
 private $user_type_iduser_type;
 
     /**
@@ -99,22 +98,6 @@ private $user_type_iduser_type;
     /**
      * @return mixed
      */
-    public function getAccessLevelIdaccessLevel()
-    {
-        return $this->access_level_idaccess_level;
-    }
-
-    /**
-     * @param mixed $access_level_idaccess_level
-     */
-    public function setAccessLevelIdaccessLevel($access_level_idaccess_level)
-    {
-        $this->access_level_idaccess_level = $access_level_idaccess_level;
-    }
-
-    /**
-     * @return mixed
-     */
     public function getUserTypeIduserType()
     {
         return $this->user_type_iduser_type;
@@ -138,14 +121,13 @@ private $user_type_iduser_type;
      * @param $access_level_idaccess_level
      * @param $user_type_iduser_type
      */
-    public function __construct($iduser_login, $user_iduser, $username, $password, $status, $access_level_idaccess_level, $user_type_iduser_type)
+    public function __construct($iduser_login, $user_iduser, $username, $password, $status, $user_type_iduser_type)
     {
         $this->iduser_login = $iduser_login;
         $this->user_iduser = $user_iduser;
         $this->username = $username;
         $this->password = $password;
         $this->status = $status;
-        $this->access_level_idaccess_level = $access_level_idaccess_level;
         $this->user_type_iduser_type = $user_type_iduser_type;
     }
 }
