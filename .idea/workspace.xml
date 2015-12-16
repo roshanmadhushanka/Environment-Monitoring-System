@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/SensorBoardController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvc/controller/SensorController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/LocationController.php" afterPath="$PROJECT_DIR$/mvc/controller/LocationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/ManufacturerController.php" afterPath="$PROJECT_DIR$/mvc/controller/ManufacturerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/ReadingController.php" afterPath="$PROJECT_DIR$/mvc/controller/ReadingController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/LoadClass.php" afterPath="$PROJECT_DIR$/template/LoadClass.php" />
     </list>
     <ignored path="ozious.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +46,7 @@
       <file leaf-file-name="SensorController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvc/controller/SensorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81369865">
+            <state vertical-scroll-proportion="-0.16438356">
               <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <marker date="1450275810687" expanded="true" signature="261:363" placeholder="INSERT INTO `sensor`..." />
@@ -517,19 +510,31 @@
       <option name="project" value="LOCAL" />
       <updated>1450262094392</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Controller Finished">
+      <created>1450280347847</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1450280347847</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Controller Finished">
+      <created>1450281026012</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1450281026012</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1375" height="735" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2133922" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -571,7 +576,8 @@
     <MESSAGE value="Initial Project" />
     <MESSAGE value="Location Controller Finished" />
     <MESSAGE value="Manufacturer Controller Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manufacturer Controller Finished" />
+    <MESSAGE value="Controller Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller Finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1012,7 +1018,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/SensorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81369865">
+        <state vertical-scroll-proportion="-0.16438356">
           <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
             <marker date="1450275810687" expanded="true" signature="261:363" placeholder="INSERT INTO `sensor`..." />
