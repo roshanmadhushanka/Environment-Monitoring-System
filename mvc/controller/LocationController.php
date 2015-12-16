@@ -100,6 +100,14 @@ class LocationController
         $this->con->closeConnection();
     }
 
+    public function delete($id){
+        $query = "DELETE FROM `location` WHERE `idlocation`='".$id."'";
+
+        $this->con->openConnection();
+        $this->con->executeRawQuery($query);
+        $this->con->closeConnection();
+    }
+
 
 
 }

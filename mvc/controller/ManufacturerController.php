@@ -55,4 +55,12 @@ class ManufacturerController
         $this->con->closeConnection();
     }
 
+    function delete($id){
+        $query="DELETE FROM `manufacturer` WHERE `idmanufacturer`='".$id."'";
+
+        $this->con->openConnection();
+        $this->con->executeRawQuery($query);
+        $this->con->closeConnection();
+    }
+
 }
