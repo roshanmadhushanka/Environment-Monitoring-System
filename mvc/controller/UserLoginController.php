@@ -35,11 +35,14 @@ class UserLoginController
 
 
     public function getUserLogin($username, $password){
+        echo 'inside controller';
+        echo '<br>'.$username.'<br>'.$password;
         $query = "SELECT * FROM `user_login` WHERE `username`='".$username."' AND `password`=MD5('".$password."') LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);
 
         if(mysqli_num_rows($result)!=0){
+            echo 'row';
             $row = $result->fetch_array();
             $ul = new UserLogin($row['iduser_login'], $row['user_iduser'], $row['username'], $row['password'], $row['status'], $row['user_type_iduser_type']);
             $this->con->closeConnection();

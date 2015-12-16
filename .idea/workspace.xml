@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/AddSensor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/AddSensorBoard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Login.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/template/LoadClass.php" afterPath="$PROJECT_DIR$/LoadClass.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/UserLoginController.php" afterPath="$PROJECT_DIR$/mvc/controller/UserLoginController.php" />
     </list>
     <ignored path="ozious.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,107 +39,63 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="13" selection-start-line="57" selection-start-column="12" selection-end-line="59" selection-end-column="13" />
-              <folding>
-                <element signature="e#122#136#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensorController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/SensorController.php">
+      <file leaf-file-name="board_add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/board_add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <marker date="1450275810687" expanded="true" signature="261:363" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="261:394" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="261:428" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="261:456" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="261:485" placeholder="INSERT INTO `sensor`..." />
-                <marker date="1450275810687" expanded="true" signature="660:682" placeholder="SELECT * FRO..sensor..." />
-                <marker date="1450275810687" expanded="true" signature="1187:1228" placeholder="SELECT * FRO..sensor..." />
-                <marker date="1450275810687" expanded="true" signature="1187:1236" placeholder="SELECT * FRO..sensor..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1669" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1720" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1768" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1812" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1859" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="1630:1883" placeholder="UPDATE `sens..." />
-                <marker date="1450275810687" expanded="true" signature="2058:2097" placeholder="DELETE FROM ..." />
-                <marker date="1450275810687" expanded="true" signature="2058:2105" placeholder="DELETE FROM ..." />
+                <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/LoginController.php">
+      <file leaf-file-name="device_add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="144" column="50" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddSensor.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/AddSensor.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1450281329994" expanded="true" signature="339:620" placeholder="INSERT INTO `session`..." />
-                <marker date="1450281329994" expanded="true" signature="838:861" placeholder="SELECT * FRO..session..." />
-                <marker date="1450281329994" expanded="true" signature="1379:1438" placeholder="SELECT * FRO..session..." />
-                <marker date="1450281329994" expanded="true" signature="1908:1982" placeholder="SELECT * FRO..session..." />
-                <marker date="1450281329994" expanded="true" signature="2536:2588" placeholder="SELECT * FRO..session..." />
-                <marker date="1450281329994" expanded="true" signature="3144:3198" placeholder="SELECT * FRO..session..." />
-                <marker date="1450281329994" expanded="true" signature="3756:3812" placeholder="SELECT * FRO..session..." />
-                <marker date="1450281329994" expanded="true" signature="4367:4419" placeholder="SELECT * FRO..session..." />
-                <marker date="1450281329994" expanded="true" signature="4976:5030" placeholder="SELECT * FRO..session..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensorStatusController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/SensorStatusController.php">
+      <file leaf-file-name="Manufacturer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/model/Manufacturer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <marker date="1450281330030" expanded="true" signature="321:399" placeholder="INSERT INTO `sensor_status`..." />
-                <marker date="1450281330030" expanded="true" signature="630:659" placeholder="SELECT * FRO..sensor_status..." />
-                <marker date="1450281330030" expanded="true" signature="1109:1183" placeholder="SELECT * FRO..sensor_status..." />
-                <marker date="1450281330030" expanded="true" signature="1525:1594" placeholder="SELECT * FRO..sensor_status..." />
-                <marker date="1450281330030" expanded="true" signature="1950:2068" placeholder="UPDATE `sens..." />
-              </folding>
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="58" column="41" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/UserController.php">
+      <file leaf-file-name="Location.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/model/Location.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1450281330076" expanded="true" signature="264:432" placeholder="INSERT INTO `user`..." />
-                <marker date="1450281330076" expanded="true" signature="621:674" placeholder="SELECT * FRO..user..." />
-                <marker date="1450281330076" expanded="true" signature="1042:1093" placeholder="SELECT * FRO..user..." />
-                <marker date="1450281330076" expanded="true" signature="1475:1577" placeholder="SELECT * FRO..user..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserLoginController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/UserLoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.467742">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <marker date="1450285998040" expanded="true" signature="281:394" placeholder="SELECT * FRO..user_login..." />
-                <marker date="1450285998040" expanded="true" signature="555:826" placeholder="INSERT INTO `user_login`..." />
-                <marker date="1450285998040" expanded="true" signature="1090:1193" placeholder="SELECT * FRO..user_login..." />
-                <marker date="1450285998040" expanded="true" signature="1728:1791" placeholder="SELECT * FRO..user_login..." />
-                <marker date="1450285998040" expanded="true" signature="2217:2321" placeholder="UPDATE `user..." />
-                <marker date="1450285998040" expanded="true" signature="2485:2589" placeholder="UPDATE `user..." />
-                <marker date="1450285998040" expanded="true" signature="2755:2855" placeholder="UPDATE `user..." />
-              </folding>
+            <state vertical-scroll-proportion="-6.1538463">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,75 +103,38 @@
       <file leaf-file-name="SensorBoard.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc/model/SensorBoard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="36" />
+            <state vertical-scroll-proportion="9.153846">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManufacturerController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/ManufacturerController.php">
+      <file leaf-file-name="AddSensorBoard.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/AddSensorBoard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-              <folding>
-                <marker date="1450274231638" expanded="true" signature="281:427" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:461" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:492" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:523" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:552" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:584" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="281:614" placeholder="INSERT INTO `manufacturer`..." />
-                <marker date="1450274231638" expanded="true" signature="798:826" placeholder="SELECT * FRO..manufacturer..." />
-                <marker date="1450274231638" expanded="true" signature="1419:1472" placeholder="SELECT * FRO..manufacturer..." />
-                <marker date="1450274231638" expanded="true" signature="1419:1480" placeholder="SELECT * FRO..manufacturer..." />
-                <marker date="1450274231638" expanded="true" signature="1419:1488" placeholder="SELECT * FRO..manufacturer..." />
-                <marker date="1450274231638" expanded="true" signature="1949:1993" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2045" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2096" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2144" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2190" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2237" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2286" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2322" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2340" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="1949:2370" placeholder="UPDATE `manu..." />
-                <marker date="1450274231638" expanded="true" signature="2545:2596" placeholder="DELETE FROM ..." />
-                <marker date="1450274231638" expanded="true" signature="2545:2604" placeholder="DELETE FROM ..." />
-              </folding>
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensorBoardController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/SensorBoardController.php">
+      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-              <folding>
-                <marker date="1450280156127" expanded="true" signature="269:356" placeholder="INSERT INTO `sensor_board`..." />
-                <marker date="1450280156127" expanded="true" signature="269:360" placeholder="INSERT INTO `sensor_board`..." />
-                <marker date="1450280156127" expanded="true" signature="269:392" placeholder="INSERT INTO `sensor_board`..." />
-                <marker date="1450280156127" expanded="true" signature="269:419" placeholder="INSERT INTO `sensor_board`..." />
-                <marker date="1450280156127" expanded="true" signature="596:624" placeholder="SELECT * FRO..sensor_board..." />
-                <marker date="1450280156127" expanded="true" signature="1125:1178" placeholder="SELECT * FRO..sensor_board..." />
-                <marker date="1450280156127" expanded="true" signature="1125:1186" placeholder="SELECT * FRO..sensor_board..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1608" placeholder="UPDATE `sens..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1654" placeholder="UPDATE `sens..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1699" placeholder="UPDATE `sens..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1749" placeholder="UPDATE `sens..." />
-                <marker date="1450280156127" expanded="true" signature="1565:1777" placeholder="UPDATE `sens..." />
-              </folding>
+            <state vertical-scroll-proportion="-4.5">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sensor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/model/Sensor.php">
+      <file leaf-file-name="LoadClass.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoadClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="41" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="41" />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -244,11 +168,17 @@
         <option value="$PROJECT_DIR$/mvc/controller/LocationController.php" />
         <option value="$PROJECT_DIR$/mvc/controller/ManufacturerController.php" />
         <option value="$PROJECT_DIR$/mvc/controller/ReadingController.php" />
-        <option value="$PROJECT_DIR$/template/LoadClass.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/mvc/controller/SensorBoardController.php" />
         <option value="$PROJECT_DIR$/mvc/controller/SensorController.php" />
+        <option value="$PROJECT_DIR$/template/LoadClass.php" />
+        <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/mvc/controller/UserLoginController.php" />
+        <option value="$PROJECT_DIR$/LoadClass.php" />
+        <option value="$PROJECT_DIR$/php/Login.php" />
+        <option value="$PROJECT_DIR$/php/AddSensorBoard.php" />
+        <option value="$PROJECT_DIR$/board_add.php" />
+        <option value="$PROJECT_DIR$/device_add.php" />
       </list>
     </option>
   </component>
@@ -261,7 +191,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -318,7 +248,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ozious" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ozious" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ozious" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ozious" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ozious" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ozious" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,17 +323,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../uvabiz" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\ozious\mvc" />
-      <recent name="C:\xampp\htdocs\ozious" />
-      <recent name="C:\Users\Roshan\PhpstormProjects\ozious\mvc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ozious\mvc\controller" />
       <recent name="C:\xampp\htdocs\ozious" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ozious" />
+      <recent name="C:\xampp\htdocs\ozious\mvc" />
+      <recent name="C:\Users\Roshan\PhpstormProjects\ozious\mvc" />
     </key>
   </component>
   <component name="RunManager">
@@ -455,23 +431,35 @@
       <option name="project" value="LOCAL" />
       <updated>1450283007884</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
+      <created>1450286030495</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1450286030495</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add Graphical User Interfaces">
+      <created>1450286148585</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1450286148585</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21270311" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21083455" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -519,7 +507,9 @@
     <MESSAGE value="Manufacturer Controller Finished" />
     <MESSAGE value="Controller Finished" />
     <MESSAGE value="Merge branch 'master' of https://github.com/rotiya/Environment-Monitoring-System&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/rotiya/Environment-Monitoring-System&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
+    <MESSAGE value="Add Graphical User Interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Graphical User Interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,71 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mvc/model/Sensor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="13" selection-start-line="57" selection-start-column="12" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <element signature="e#122#136#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/controller/SensorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1450275810687" expanded="true" signature="261:363" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="261:394" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="261:428" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="261:456" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="261:485" placeholder="INSERT INTO `sensor`..." />
-            <marker date="1450275810687" expanded="true" signature="660:682" placeholder="SELECT * FRO..sensor..." />
-            <marker date="1450275810687" expanded="true" signature="1187:1228" placeholder="SELECT * FRO..sensor..." />
-            <marker date="1450275810687" expanded="true" signature="1187:1236" placeholder="SELECT * FRO..sensor..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1669" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1720" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1768" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1812" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1859" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="1630:1883" placeholder="UPDATE `sens..." />
-            <marker date="1450275810687" expanded="true" signature="2058:2097" placeholder="DELETE FROM ..." />
-            <marker date="1450275810687" expanded="true" signature="2058:2105" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/LoadClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/SensorBoard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/SensorBoardController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -679,9 +604,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="e#122#136#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -778,9 +701,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#122#136#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +710,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7#91#0#PHP" expanded="true" />
+            <element signature="e#7#91#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -813,7 +734,7 @@
         <state vertical-scroll-proportion="-5.230769">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#7#91#0#PHP" expanded="true" />
+            <element signature="e#7#91#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -853,25 +774,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/UserLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/model/AccessLevel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/Location.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="33" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -896,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/Manufacturer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -910,35 +809,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/LoadClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/model/Sensor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="41" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="13" selection-start-line="57" selection-start-column="12" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <element signature="e#122#136#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/SensorBoard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1066,19 +940,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1450288761553" expanded="true" signature="31:59" placeholder="..." />
+            <marker date="1450288761553" expanded="true" signature="39:59" placeholder="..." />
+            <marker date="1450288761553" expanded="true" signature="552:598" placeholder="..." />
+            <marker date="1450288761553" expanded="true" signature="570:598" placeholder="..." />
+            <marker date="1450288761553" expanded="true" signature="688:801" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/UserLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-72.57692">
+          <caret line="132" column="1" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/UserLoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.467742">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.1153846">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding>
-            <marker date="1450285998040" expanded="true" signature="281:394" placeholder="SELECT * FRO..user_login..." />
-            <marker date="1450285998040" expanded="true" signature="555:826" placeholder="INSERT INTO `user_login`..." />
-            <marker date="1450285998040" expanded="true" signature="1090:1193" placeholder="SELECT * FRO..user_login..." />
-            <marker date="1450285998040" expanded="true" signature="1728:1791" placeholder="SELECT * FRO..user_login..." />
-            <marker date="1450285998040" expanded="true" signature="2217:2321" placeholder="UPDATE `user..." />
-            <marker date="1450285998040" expanded="true" signature="2485:2589" placeholder="UPDATE `user..." />
-            <marker date="1450285998040" expanded="true" signature="2755:2855" placeholder="UPDATE `user..." />
+            <marker date="1450289093563" expanded="true" signature="281:394" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450289093563" expanded="true" signature="555:826" placeholder="INSERT INTO `user_login`..." />
+            <marker date="1450289093563" expanded="true" signature="1170:1273" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450289093563" expanded="true" signature="1832:1895" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450289093563" expanded="true" signature="2321:2425" placeholder="UPDATE `user..." />
+            <marker date="1450289093563" expanded="true" signature="2589:2693" placeholder="UPDATE `user..." />
+            <marker date="1450289093563" expanded="true" signature="2859:2959" placeholder="UPDATE `user..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoadClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/Location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1538463">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/Manufacturer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/AddSensorBoard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/SensorBoard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.153846">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="144" column="50" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/AddSensor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
