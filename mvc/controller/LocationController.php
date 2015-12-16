@@ -59,12 +59,25 @@ class LocationController
         return $locations;
     }
 
-    public function getLocationByNameAndCity($name, $city){
-
+    public function getLocationByCoordinate($longitude, $latitude, $altitude){
+        $locations = array();
+        $query = "SELECT * FROM `location` WHERE longitude='".$longitude."' AND latitude='".$latitude."' AND altitude='".$altitude."'";
+        $this->con->openConnection();
+        if($result = $this->con->executeRawQuery($query)){
+            while($row = $result->fetch_array()){
+                $loc = new Location($row['idlocation'], $row['location_name'], $row['location_city'], $row['longitude'], $row['latitude'], $row['altitude']);
+                $locations[] = $loc;
+            }
+        }
+        $this->con->closeConnection();
+        return $locations;
     }
 
-    public function getLocationByCoordinate($longitude, $latitude){
-
+    public function updateLocationName(Location $loc){
+        $query = "UPDATE `location` SET `location_name`='".$loc->getLocationName()."',`location_city`='".$loc->getLocationCity()."',`longitude`='".$loc->getLongitude()."',`latitude`='".$loc->getLatitude()."',`altitude`='".$loc->getAltitude()."' WHERE `idlocation`='".$loc->getLocationId()."'";
+        $this->con->openConnection();
+        $this->con->executeRawQuery($query);
+        $this->con->closeConnection();
     }
 
 
