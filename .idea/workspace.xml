@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/UserLoginController.php" afterPath="$PROJECT_DIR$/mvc/controller/UserLoginController.php" />
     </list>
     <ignored path="ozious.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,12 +124,16 @@
       <file leaf-file-name="UserLoginController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvc/controller/UserLoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2688172">
+            <state vertical-scroll-proportion="1.467742">
               <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
-                <marker date="1450282721204" expanded="true" signature="280:526" placeholder="INSERT INTO `user_login`..." />
-                <marker date="1450282721204" expanded="true" signature="733:831" placeholder="SELECT * FRO..user_login..." />
-                <marker date="1450282721204" expanded="true" signature="1366:1429" placeholder="SELECT * FRO..user_login..." />
+                <marker date="1450285998040" expanded="true" signature="281:394" placeholder="SELECT * FRO..user_login..." />
+                <marker date="1450285998040" expanded="true" signature="555:826" placeholder="INSERT INTO `user_login`..." />
+                <marker date="1450285998040" expanded="true" signature="1090:1193" placeholder="SELECT * FRO..user_login..." />
+                <marker date="1450285998040" expanded="true" signature="1728:1791" placeholder="SELECT * FRO..user_login..." />
+                <marker date="1450285998040" expanded="true" signature="2217:2321" placeholder="UPDATE `user..." />
+                <marker date="1450285998040" expanded="true" signature="2485:2589" placeholder="UPDATE `user..." />
+                <marker date="1450285998040" expanded="true" signature="2755:2855" placeholder="UPDATE `user..." />
               </folding>
             </state>
           </provider>
@@ -286,6 +289,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,7 +342,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -463,7 +466,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1065,12 +1068,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/UserLoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2688172">
+        <state vertical-scroll-proportion="1.467742">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <marker date="1450282721204" expanded="true" signature="280:526" placeholder="INSERT INTO `user_login`..." />
-            <marker date="1450282721204" expanded="true" signature="733:831" placeholder="SELECT * FRO..user_login..." />
-            <marker date="1450282721204" expanded="true" signature="1366:1429" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450285998040" expanded="true" signature="281:394" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450285998040" expanded="true" signature="555:826" placeholder="INSERT INTO `user_login`..." />
+            <marker date="1450285998040" expanded="true" signature="1090:1193" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450285998040" expanded="true" signature="1728:1791" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1450285998040" expanded="true" signature="2217:2321" placeholder="UPDATE `user..." />
+            <marker date="1450285998040" expanded="true" signature="2485:2589" placeholder="UPDATE `user..." />
+            <marker date="1450285998040" expanded="true" signature="2755:2855" placeholder="UPDATE `user..." />
           </folding>
         </state>
       </provider>
