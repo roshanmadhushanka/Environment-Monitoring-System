@@ -1,22 +1,18 @@
 <?php
-//include "../mvc/controller/UserLoginController.php";
-//include "../mvc/model/UserLogin.php";
-//include "../database/DBase.php";
+session_start();
 
 include "../LoadClass.php";
 $user_name = $_POST['user_name'];
 $password = $_POST['password'];
 
-echo $user_name;
-echo $password;
-
 $userLoginController = new UserLoginController();
-$u = $userLoginController->getUserLogin($user_name, $password);
-echo $u->getUsername();
-if($userLoginController->getUserLogin($user_name, $password) != null){
-    echo $user_name.'<br>'.$password;
+$user = $userLoginController->getUserLogin($user_name, $password);
+if($user != null){
+    $_SESSION['current_user_id'] = $user->getUserIduser();
+    $_SESSION['login_id'] = $user->getIduserLogin();
+    header('Location: ../index.php');
 }
-//header('Location: ../index.php');
+
 /**
  * Created by PhpStorm.
  * User: Roshan

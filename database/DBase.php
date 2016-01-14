@@ -37,5 +37,7 @@ class DBase
         return mysqli_query($this->conn, $query);
     }
 
-
+    function getResult($query){
+        return mysqli_result($this->conn, $query);
+    }
 }

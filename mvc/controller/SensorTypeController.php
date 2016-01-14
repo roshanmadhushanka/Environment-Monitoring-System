@@ -15,7 +15,7 @@ class SensorTypeController
         $this->con = new DBase();
     }
 
-    public function addSensorType(SensorType $st){
+    public function insert(SensorType $st){
         echo $st->getTypeName();
         $query = "INSERT INTO `sensor_type`(`type_name`, `unit`) VALUES ('".$st->getTypeName()."', '".$st->getUnit()."')";
         $this->con->openConnection();
@@ -24,7 +24,7 @@ class SensorTypeController
     }
 
 
-    public function getAllSensorTypes(){
+    public function selectAll(){
         $sensor_types = array();
         $query = "SELECT * FROM `sensor_type`";
         $this->con->openConnection();
@@ -39,7 +39,7 @@ class SensorTypeController
     }
 
 
-    public function getSensorTypeByName($name){
+    public function selectByName($name){
         $query = "SELECT * FROM `sensor_type` WHERE type_name LIKE '%".$name."%' LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);
@@ -50,7 +50,7 @@ class SensorTypeController
     }
 
 
-    public function getSensorTypeById($id){
+    public function selectByID($id){
         $query = "SELECT * FROM `sensor_type` WHERE idsensor_type='".$id."' LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);
@@ -60,7 +60,7 @@ class SensorTypeController
         return $st;
     }
 
-    public function updateSensorType(SensorType $st){
+    public function update(SensorType $st){
         $query = "UPDATE `sensor_type` SET type_name='".$st->getTypeName()."', unit='".$st->getUnit()."' WHERE idsensor_type='".$st->getIdsensorType()."'";
         $this->con->openConnection();
         $this->con->executeRawQuery($query);

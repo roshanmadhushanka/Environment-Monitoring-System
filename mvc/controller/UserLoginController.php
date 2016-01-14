@@ -16,7 +16,7 @@ class UserLoginController
     }
 
 
-    public function addUserLogin(UserLogin $ul){
+    public function insert(UserLogin $ul){
 
         $query = "SELECT * FROM `user_login` WHERE `username`='".$ul->getUsername()."' AND `password`=MD5('".$ul->getPassword()."')";
         $this->con->openConnection();
@@ -35,8 +35,6 @@ class UserLoginController
 
 
     public function getUserLogin($username, $password){
-        echo 'inside controller';
-        echo '<br>'.$username.'<br>'.$password;
         $query = "SELECT * FROM `user_login` WHERE `username`='".$username."' AND `password`=MD5('".$password."') LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);
@@ -54,7 +52,7 @@ class UserLoginController
 
     }
 
-    public function getUserLoginById($id){
+    public function selectById($id){
         $query = "SELECT * FROM `user_login` WHERE iduser_login='".$id."' LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);

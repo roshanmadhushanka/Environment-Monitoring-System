@@ -1,4 +1,7 @@
-<?php ?>
+<?php
+session_start();
+include "LoadClass.php";
+?>
 <!DOCTYPE html>
 <html>
 
@@ -24,10 +27,14 @@
     <script
         type="text/javascript" src="/assets/script/canvasjs.min.js">
     </script>
-
+    <script type="text/javascript" src="AutoTemperature.js"></script>
 </head>
 
 <body>
+    <!-- Test Redirect PHP -->
+    <?php //header('Location: test.php');?>
+    <!-- End Test Redirect PHP -->
+
     <div id="wrapper">
         <nav class="navbar-default navbar-static-side" role="navigation">
             <div class="sidebar-collapse">
@@ -37,8 +44,28 @@
                             <img alt="image" class="img-circle" src="img/profile_small.jpg" />
                              </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="index.php#">
-                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Lakmal Buddika Meegahapola</strong>
-                             </span> <span class="text-muted text-xs block">Software Engineer <b class="caret"></b></span> </span> </a>
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">
+                                        <?php
+                                            if(isset($_SESSION['current_user_id'])){
+                                                $userController = new UserController();
+                                                $user = $userController->selectByID($_SESSION['current_user_id']);
+                                                echo $user->getFirstName().' '.$user->getLastName();
+                                            }
+                                        ?>
+                             </strong>
+                             </span>
+                             <span class="text-muted text-xs block">
+                                    <?php
+                                    if(isset($_SESSION['login_id'])) {
+                                        $userLoginController = new UserLoginController();
+                                        $user = $userLoginController->selectById($_SESSION['login_id']);
+
+                                        $userTypeController = new UserTypeController();
+                                        $userType = $userTypeController->selectById($user->getUserTypeIduserType());
+
+                                        echo $userType->getDescription();
+                                    }
+                                    ?><b class="caret"></b></span> </span> </a>
 
                         </div>
 
@@ -123,7 +150,7 @@
 
 
                 <li>
-                    <a href="login.php">
+                    <a href="php/Logout.php">
                         <i class="fa fa-sign-out"></i> Log out
                     </a>
                 </li>
