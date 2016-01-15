@@ -1,4 +1,4 @@
-var xmlHttp = createXmlHttpRequestObject();
+//var xmlHttp = createXmlHttpRequestObject();
 
 function createXmlHttpRequestObject(){
     var xmlHttp;
@@ -35,7 +35,7 @@ function showTemperature(){
     if(xmlHttp.readyState == 4 || xmlHttp.readyState == 0){
         var loc = document.getElementById("location").value;
         var date = document.getElementById("date").value;
-        xmlHttp.open("GET", "http://localhost/ozious/php/TemperatureReadings.php?loc="+loc+"&date=2016-01-14", true);
+        xmlHttp.open("GET", "http://localhost/ozious/php/TemperatureReadings.php?loc="+loc+"&date=2016-01-15", true);
         xmlHttp.onreadystatechange = handleServerResponse;
         xmlHttp.send(null);
         setTimeout('showTemperature()', 1000);
@@ -63,7 +63,6 @@ function handleServerResponse(){
         }else{
             alert("Something went wrong");
         }
-
     }
 }
 
