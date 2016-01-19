@@ -16,7 +16,7 @@ class UserTypeController
     }
 
 
-    public function addUserType(UserType $ut){
+    public function insert(UserType $ut){
         $query = "INSERT INTO `user_type`(`description`) VALUES ('".$ut->getDescription()."')";
         $this->con->openConnection();
         $this->con->executeRawQuery($query);
@@ -24,7 +24,7 @@ class UserTypeController
     }
 
 
-    public function getAllUserTypes(){
+    public function selectAll(){
         $user_types = array();
         $query = "SELECT * FROM `user_type`";
         $this->con->openConnection();
@@ -39,7 +39,7 @@ class UserTypeController
     }
 
 
-    public function getUserTypeByName($name){
+    public function selectByName($name){
         $query = "SELECT * FROM `user_type` WHERE description='".$name."' LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);
@@ -50,7 +50,7 @@ class UserTypeController
     }
 
 
-    public function getUserTypeById($id){
+    public function selectById($id){
         $query = "SELECT * FROM `user_type` WHERE iduser_type='".$id."' LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);

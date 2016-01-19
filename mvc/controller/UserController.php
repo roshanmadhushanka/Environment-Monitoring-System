@@ -16,7 +16,7 @@ class UserController
     }
 
 
-    public function addUser(User $u){
+    public function insert(User $u){
         $query = "INSERT INTO `user`(`first_name`, `last_name`, `initials`, `nic`) VALUES ('".$u->getFirstName()."', '".$u->getLastName()."', '".$u->getInitials()."', '".$u->getNic()."')";
         $this->con->openConnection();
         $this->con->executeRawQuery($query);
@@ -24,7 +24,7 @@ class UserController
     }
 
 
-    public function getUserByID($id){
+    public function selectByID($id){
         $query = "SELECT * FROM `user` WHERE `iduser`='".$id."' LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);
@@ -35,7 +35,7 @@ class UserController
     }
 
 
-    public function getUserByNic($nic){
+    public function selectByNic($nic){
         $query = "SELECT * FROM `user` WHERE `nic`='".$nic."' LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);
@@ -46,7 +46,7 @@ class UserController
     }
 
 
-    public function getUserByFullName($first, $last){
+    public function selectFullName($first, $last){
         $query = "SELECT * FROM `user` WHERE `first_name` LIKE '%".$first."%' AND `last_name` LIKE '%".$last."%' LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);

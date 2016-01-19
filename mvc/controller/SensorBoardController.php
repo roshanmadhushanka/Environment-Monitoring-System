@@ -55,5 +55,21 @@ class SensorBoardController
         $this->con->closeConnection();
     }
 
+    function removeSensorBoardByiId($id){
+
+        $this->con->openConnection();
+        $query1 = "DELETE FROM `reading` WHERE `sensor_idsensor` IN (SELECT `idsensor` FROM `sensor` WHERE `sensor_board_id`='".$id."')";
+        $result = $this->con->executeRawQuery($query1);
+
+        $query2 = "DELETE FROM `sensor` WHERE `sensor_board_id`='".$id."'";
+        $this->con->executeRawQuery($query2);
+
+        $query2 = "DELETE FROM `sensor_board` WHERE `idsensor_board`='".$id."'";
+        $this->con->executeRawQuery($query2);
+
+        $this->con->closeConnection();
+
+
+    }
 
 }

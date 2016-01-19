@@ -14,7 +14,7 @@ class LoginController
         $this->con = new DBase();
     }
 
-    public function addLoginSession(Session $ses){
+    public function insert(Session $ses){
         echo $ses->getInTime().' '.$ses->getOutTime().'</br>';
         $query = "INSERT INTO `session`(`in_time`, `out_time`, `ip_address`, `device`, `browser`, `user_login_iduser_login`) VALUES ('".$ses->getInTime()."', '".$ses->getOutTime()."', '".$ses->getIpAddress()."', '".$ses->getDevice()."','".$ses->getBrowser()."','".$ses->getUserLoginIduserLogin()."')";
         $this->con->openConnection();
@@ -23,7 +23,7 @@ class LoginController
     }
 
 
-    public function getAllSessions(){
+    public function selectAll(){
         $sessions = array();
         $query = "SELECT * FROM `session`";
         $this->con->openConnection();
@@ -38,7 +38,7 @@ class LoginController
     }
 
 
-    public function getSessionByID($id){
+    public function selectByID($id){
         $query = "SELECT * FROM `session` WHERE `idsession`='".$id."' LIMIT 1";
         $this->con->openConnection();
         $result = $this->con->executeRawQuery($query);
@@ -49,7 +49,7 @@ class LoginController
     }
 
 
-    public function getSessionByUser($user_log_id){
+    public function selectByUser($user_log_id){
         $sessions = array();
         $query = "SELECT * FROM `session` WHERE `user_login_iduser_login`='".$user_log_id."'";
         $this->con->openConnection();
@@ -64,7 +64,7 @@ class LoginController
     }
 
 
-    public function getSessionByIpAddress($ip){
+    public function selectByIpAddress($ip){
         $sessions = array();
         $query = "SELECT * FROM `session` WHERE `ip_address`='".$ip."'";
         $this->con->openConnection();
