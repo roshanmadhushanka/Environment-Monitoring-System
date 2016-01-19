@@ -2,6 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_location.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_manufacturer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/location_add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manufacturer_add.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\angularjs.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\badges_labels.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\basic_gallery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\contacts.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\css_animation.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\dashboard_2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\dashboard_3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\draggable_panels.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\empty_page.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\faq.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\file_manager.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_advanced.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_basic.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_editors.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_file_upload.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_wizard.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_chartjs.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_flot.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_morris.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_peity.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_rickshaw.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_sparkline.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\grid_options.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\icons.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\invoice.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\invoice_print.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\lockscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\login.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\mail_compose.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\mail_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\mailbox.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\notifications.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\pin_board.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\profile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\project_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\projects.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\register.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\search_results.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\table_basic.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\table_data_tables.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\tabs_panels.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\typography.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\video.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\widgets.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Login.php" afterPath="$PROJECT_DIR$/php/Login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board_add.php" afterPath="$PROJECT_DIR$/board_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/device_add.php" afterPath="$PROJECT_DIR$/device_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_sensor.php" afterPath="$PROJECT_DIR$/edit_sensor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_sensor_board.php" afterPath="$PROJECT_DIR$/edit_sensor_board.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temperature.php" afterPath="$PROJECT_DIR$/temperature.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_add.php" afterPath="$PROJECT_DIR$/user_add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wind.php" afterPath="$PROJECT_DIR$/wind.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ozious.iws" />
@@ -35,22 +98,72 @@
     <favorites_list name="ozious" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AirCompositionReadings.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ajax/AirCompositionReadings.js">
+    <leaf>
+      <file leaf-file-name="location_add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/location_add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="52.23077">
+              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirComposition.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AirComposition.js">
+      <file leaf-file-name="manufacturer_add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manufacturer_add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="20" />
+            <state vertical-scroll-proportion="-3.3846154">
+              <caret line="157" column="46" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_location.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit_location.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.653846">
+              <caret line="158" column="68" selection-start-line="158" selection-start-column="68" selection-end-line="158" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_manufacturer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit_manufacturer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.807693">
+              <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_sensor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/edit_sensor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.6538463">
+              <caret line="158" column="63" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_sensor_board.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/edit_sensor_board.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15384616">
+              <caret line="158" column="91" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.807692">
+              <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -59,91 +172,28 @@
       <file leaf-file-name="wind.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wind.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="41.29091">
-              <caret line="173" column="83" selection-start-line="173" selection-start-column="83" selection-end-line="173" selection-end-column="83" />
+            <state vertical-scroll-proportion="-20.961538">
+              <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="device_add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.269231">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state vertical-scroll-proportion="46.692307">
+              <caret line="90" column="82" selection-start-line="90" selection-start-column="82" selection-end-line="90" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
+      <file leaf-file-name="board_add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/board_add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirComposition.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ajax/AirComposition.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemperatureReading.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/ajax/TemperatureReading.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="57" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirComposition.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/AirComposition.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadingController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87931037">
-              <caret line="211" column="60" selection-start-line="211" selection-start-column="60" selection-end-line="211" selection-end-column="60" />
-              <folding>
-                <marker date="1453269015724" expanded="true" signature="262:442" placeholder="INSERT INTO `reading`... " />
-                <marker date="1453269015724" expanded="true" signature="617:640" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="1131:1188" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="1682:1762" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="2256:2336" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="2841:2944" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="3459:3573" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="4099:4236" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="4921:5260" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="6255:6596" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="7584:7928" placeholder="SELECT * FRO... reading" />
-                <marker date="1453269015724" expanded="true" signature="8921:9300" placeholder="SELECT * FRO... reading" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirComposition.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AirComposition.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.9615386">
+              <caret line="162" column="86" selection-start-line="162" selection-start-column="86" selection-end-line="162" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -169,24 +219,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template/LoadClass.php" />
-        <option value="$PROJECT_DIR$/LoadClass.php" />
-        <option value="$PROJECT_DIR$/mvc/controller/SensorTypeController.php" />
-        <option value="$PROJECT_DIR$/php/AddSensorBoard.php" />
-        <option value="$PROJECT_DIR$/php/AddSensor.php" />
         <option value="$PROJECT_DIR$/mvc/controller/UserController.php" />
         <option value="$PROJECT_DIR$/mvc/controller/UserTypeController.php" />
         <option value="$PROJECT_DIR$/mvc/controller/LoginController.php" />
         <option value="$PROJECT_DIR$/php/AddUser.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/php/Login.php" />
         <option value="$PROJECT_DIR$/mvc/controller/UserLoginController.php" />
         <option value="$PROJECT_DIR$/php/Logout.php" />
-        <option value="$PROJECT_DIR$/board_add.php" />
-        <option value="$PROJECT_DIR$/device_add.php" />
-        <option value="$PROJECT_DIR$/edit_sensor.php" />
-        <option value="$PROJECT_DIR$/edit_sensor_board.php" />
-        <option value="$PROJECT_DIR$/user_add.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/js/demo/morris-demo.js" />
         <option value="$PROJECT_DIR$/database/DBase.php" />
@@ -209,17 +248,28 @@
         <option value="$PROJECT_DIR$/AutoTemperature.js" />
         <option value="$PROJECT_DIR$/php/TemperatureReadings.php" />
         <option value="$PROJECT_DIR$/js/demo/flot-demo.js" />
-        <option value="$PROJECT_DIR$/temperature.php" />
         <option value="$PROJECT_DIR$/js/AirCompositionReadings.js" />
         <option value="$PROJECT_DIR$/js/TemperatureReading.js" />
         <option value="$PROJECT_DIR$/php/AirComposition.php" />
-        <option value="$PROJECT_DIR$/wind.php" />
         <option value="$PROJECT_DIR$/AirComposition.js" />
         <option value="$PROJECT_DIR$/js/ajax/TemperatureReading.js" />
         <option value="$PROJECT_DIR$/js/ajax/AirComposition.js" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/mvc/controller/ReadingController.php" />
+        <option value="$PROJECT_DIR$/mvc/model/Session.php" />
+        <option value="$PROJECT_DIR$/php/Login.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/temperature.php" />
+        <option value="$PROJECT_DIR$/user_add.php" />
+        <option value="$PROJECT_DIR$/wind.php" />
+        <option value="$PROJECT_DIR$/location_add.php" />
+        <option value="$PROJECT_DIR$/device_add.php" />
+        <option value="$PROJECT_DIR$/board_add.php" />
+        <option value="$PROJECT_DIR$/manufacturer_add.php" />
+        <option value="$PROJECT_DIR$/edit_location.php" />
+        <option value="$PROJECT_DIR$/edit_manufacturer.php" />
+        <option value="$PROJECT_DIR$/edit_sensor.php" />
+        <option value="$PROJECT_DIR$/edit_sensor_board.php" />
       </list>
     </option>
   </component>
@@ -227,6 +277,9 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="PhpServers">
     <servers />
@@ -236,7 +289,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -259,8 +312,6 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scratches" />
@@ -279,7 +330,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
+              <option name="myItemId" value="Environment-Monitoring-System" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,75 +340,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
+              <option name="myItemId" value="Environment-Monitoring-System" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ozious" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ajax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,18 +357,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\ozious\js\ajax" />
-      <recent name="C:\xampp\htdocs\ozious" />
-      <recent name="C:\xampp\htdocs\ozious\dummy" />
-      <recent name="C:\xampp\htdocs\ozious\mvc" />
-      <recent name="C:\Users\Roshan\PhpstormProjects\ozious\mvc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ozious\js\ajax" />
       <recent name="C:\xampp\htdocs\ozious\php" />
       <recent name="C:\xampp\htdocs\ozious" />
       <recent name="C:\xampp\htdocs\ozious\mvc\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Environment-Monitoring-System" />
+      <recent name="C:\xampp\htdocs\ozious\js\ajax" />
+      <recent name="C:\xampp\htdocs\ozious" />
+      <recent name="C:\xampp\htdocs\ozious\dummy" />
+      <recent name="C:\xampp\htdocs\ozious\mvc" />
     </key>
   </component>
   <component name="RunManager">
@@ -399,17 +386,15 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
@@ -537,27 +522,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20717423" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32334384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32668713" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32334384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -604,101 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax/TemperatureReading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="47" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirComposition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/AirComposition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax/AirCompositionReadings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax/AirComposition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/AirCompositionReadings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax/TemperatureReading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="47" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AirComposition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/AirComposition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax/AirCompositionReadings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax/AirComposition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/AirCompositionReadings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/model/Sensor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-32.692307">
@@ -777,13 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.038462">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoadClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -829,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TemperatureVariation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/Logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -857,37 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutoTemperature.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temperature.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="190" column="38" selection-start-line="190" selection-start-column="38" selection-end-line="190" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AutoTemperature.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -900,6 +739,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AirComposition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.184">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax/AirCompositionReadings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax/AirComposition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1568">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajax/TemperatureReading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2928">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/AirComposition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28380635">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="211" column="60" selection-start-line="211" selection-start-column="60" selection-end-line="211" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/UserLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testDelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1453220788408" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1453220788408" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoadClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoTemperature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -912,34 +854,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AirComposition.js">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="20" />
+        <state vertical-scroll-proportion="-12.307693">
+          <caret line="91" column="45" selection-start-line="91" selection-start-column="45" selection-end-line="91" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax/TemperatureReading.js">
+    <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="57" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax/AirCompositionReadings.js">
+    <entry file="file://$PROJECT_DIR$/temperature.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-15.461538">
+          <caret line="95" column="45" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wind.php">
+    <entry file="file://$PROJECT_DIR$/TemperatureVariation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.29091">
-          <caret line="173" column="83" selection-start-line="173" selection-start-column="83" selection-end-line="173" selection-end-column="83" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -952,48 +894,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/user_add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.269231">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state vertical-scroll-proportion="-17.807692">
+          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajax/AirComposition.js">
+    <entry file="file://$PROJECT_DIR$/wind.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        <state vertical-scroll-proportion="-20.961538">
+          <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/AirComposition.php">
+    <entry file="file://$PROJECT_DIR$/device_add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="46.692307">
+          <caret line="90" column="82" selection-start-line="90" selection-start-column="82" selection-end-line="90" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
+    <entry file="file://$PROJECT_DIR$/board_add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87931037">
-          <caret line="211" column="60" selection-start-line="211" selection-start-column="60" selection-end-line="211" selection-end-column="60" />
-          <folding>
-            <marker date="1453269015724" expanded="true" signature="262:442" placeholder="INSERT INTO `reading`... " />
-            <marker date="1453269015724" expanded="true" signature="617:640" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="1131:1188" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="1682:1762" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="2256:2336" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="2841:2944" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="3459:3573" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="4099:4236" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="4921:5260" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="6255:6596" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="7584:7928" placeholder="SELECT * FRO... reading" />
-            <marker date="1453269015724" expanded="true" signature="8921:9300" placeholder="SELECT * FRO... reading" />
-          </folding>
+        <state vertical-scroll-proportion="-2.9615386">
+          <caret line="162" column="86" selection-start-line="162" selection-start-column="86" selection-end-line="162" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/location_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="52.23077">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manufacturer_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3846154">
+          <caret line="157" column="46" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.653846">
+          <caret line="158" column="68" selection-start-line="158" selection-start-column="68" selection-end-line="158" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_manufacturer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.807693">
+          <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_sensor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6538463">
+          <caret line="158" column="63" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_sensor_board.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15384616">
+          <caret line="158" column="91" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
+          <folding />
         </state>
       </provider>
     </entry>

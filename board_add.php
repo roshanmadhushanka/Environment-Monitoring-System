@@ -78,20 +78,25 @@ if(isset($_SESSION['sensor_board_add_stat'])){
                                 <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
                             </ul>
                         </li>
+                        <?php if($_SESSION['user_level_id']==1){ ?>
+                            <li>
+                                <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li><a href="device_add.php">Add Sensor</a></li>
+                                    <li><a href="board_add.php">Add Sensor Board</a></li>
+                                    <li><a href="edit_sensor.php">Remove Sensor</a></li>
+                                    <li><a href="edit_sensor_board.php">Remove Sensor Board</a></li>
+                                    <li><a href="manufacturer_add.php">Add Manufacturer</a></li>
+                                    <li><a href="location_add.php">Add Location</a></li>
+                                    <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
+                                    <li><a href="edit_location.php">Remove Location</a></li>
+                                </ul>
+                            </li>
 
-                        <li>
-                            <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li><a href="device_add.php">Add Sensor</a></li>
-                                <li><a href="board_add.php">Add Sensor Board</a></li>
-                                <li><a href="edit_sensor.php">Edit/Remove Sensor</a></li>
-                                <li><a href="edit_sensor_board.php">Edit/Remove Sensor Board</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
-                        </li>
+                            <li>
+                                <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
+                            </li>
+                        <?php } ?>
                     </ul>
                 </div>
             </nav>
@@ -155,7 +160,7 @@ if(isset($_SESSION['sensor_board_add_stat'])){
                     <div class="col-lg-12">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
-                                <h5>Add a sensor board<small> to an available sensor board </small></h5>
+                                <h5>Add a sensor board<small> to an available location </small></h5>
                             </div>
                             <div class="ibox-content">
                                 <form method="post" class="form-horizontal" action="php/AddSensorBoard.php">

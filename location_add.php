@@ -1,9 +1,7 @@
-
 <?php
-    session_start();
-    include "LoadClass.php";
+session_start();
+include "LoadClass.php";
 ?>
-
 <!DOCTYPE html>
 <html>
 
@@ -20,26 +18,15 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
-
-    <link href="css/plugins/chosen/chosen.css" rel="stylesheet">
-
-    <link href="css/plugins/switchery/switchery.css" rel="stylesheet">
-
-    <link href="css/plugins/jasny/jasny-bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/plugins/nouslider/jquery.nouislider.css" rel="stylesheet">
-
     <link href="css/plugins/datapicker/datepicker3.css" rel="stylesheet">
 
     <link href="css/plugins/ionRangeSlider/ion.rangeSlider.css" rel="stylesheet">
     <link href="css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" rel="stylesheet">
-    <!-- <script type="text/javascript" src="AirComposition.js"></script> -->
-    <script type="text/javascript" src="js/ajax/AirComposition.js"></script>
 
 </head>
 
 <body>
+
 <div id="wrapper">
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="sidebar-collapse">
@@ -114,6 +101,8 @@
         <div>
             <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header">
+
+
                 </div>
                 <ul class="nav navbar-top-links navbar-right">
                     <li>
@@ -124,10 +113,11 @@
                             <i class="fa fa-envelope"></i>  <span class="label label-warning"></span>
                         </a>
                         <ul class="dropdown-menu dropdown-messages">
+
                             <li class="divider"></li>
                             <li>
                                 <div class="text-center link-block">
-                                    <a href="mailbox.html">
+                                    <a href="">
                                         <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
                                     </a>
                                 </div>
@@ -142,7 +132,7 @@
                     <li class="divider"></li>
                     <li>
                         <div class="text-center link-block">
-                            <a href="notifications.html">
+                            <a href="">
                                 <strong>See All Alerts</strong>
                                 <i class="fa fa-angle-right"></i>
                             </a>
@@ -150,6 +140,8 @@
                     </li>
                 </ul>
                 </li>
+
+
                 <li>
                     <a href="login.php">
                         <i class="fa fa-sign-out"></i> Log out
@@ -159,124 +151,78 @@
             </nav>
         </div>
 
-        <div class="wrapper wrapper-content animated fadeInRight">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <h5>Select Location & Date</h5>
-                        </div>
-                        <div class="ibox-content">
-                            <form class="form-horizontal">
-                                <div class="form-group"><label class="col-sm-2 control-label">Select Location</label>
-                                    <div class="col-sm-10">
-                                        <select class="form-control m-b" name="location" id="location" onchange="getAirComposition()">
-                                            <option selected disabled>- Select a location -</option>
-                                            <?php
-                                            $locationController = new LocationController();
-                                            $locations = $locationController->selectAll();
-                                            foreach($locations as $location){
-                                                echo '<option value="'.$location->getLocationId().'">'.$location->getLocationName().'</option>';
-                                            }
-                                            ?>
-                                        </select>
-                                    </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>Add a location <small>  to the system </small></h5>
+                    </div>
+                    <div class="ibox-content">
+                        <form method="post" action="php/AddLocation.php" class="form-horizontal">
+                            <div class="form-group"><label class="col-sm-2 control-label">Location Name</label>
+                                <div class="col-sm-10"><input type="text" name="location_name" class="form-control" required></div>
+                            </div>
+
+                            <div class="form-group"><label class="col-sm-2 control-label">Location City</label>
+                                <div class="col-sm-10"><input type="text" name="location_city" class="form-control" required></div>
+                            </div>
+
+                            <div class="form-group"><label class="col-sm-2 control-label">Longitude</label>
+                                <div class="col-sm-10"><input type="text" name="longitude" class="form-control" required></div>
+                            </div>
+
+                            <div class="form-group"><label class="col-sm-2 control-label">Latitude</label>
+                                <div class="col-sm-10"><input type="text" name="latitude" class="form-control" required></div>
+                            </div>
+
+                            <div class="form-group"><label class="col-sm-2 control-label">Altitude</label>
+                                <div class="col-sm-10"><input type="text" name="Altitude" class="form-control" required></div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <button class="btn btn-white" type="submit">Cancel</button>
+                                    <input type="submit" class="btn btn-primary" value="Save Changes">
                                 </div>
-                                <div class="form-group" id="data_2">
-                                    <label class="col-sm-2 control-label">Select Date</label>
-                                    <div class="input-group date">
-                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                        <input type="text" class="form-control" value="12/17/2015" name="date" id="date" onchange="getAirComposition()">
-                                    </div>
-                                </div>
-                            </form>
+                            </div>
 
-                        </div>
+                        </form>
                     </div>
                 </div>
-
-                <div class="col-lg-6">
-                    <div class="widget style1 blue-bg">
-                        <div class="row">
-                            <div class="col-xs-4">
-                                <i class="fa fa-bomb fa-5x"></i>
-                            </div>
-                            <div class="col-xs-8 text-right">
-                                <span> Oxygen </span>
-                                <h2 class="font-bold">
-                                    <div id="oxygenPercentage"></div>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="widget style1 navy-bg">
-                        <div class="row">
-                            <div class="col-xs-4">
-                                <i class="fa fa-puzzle-piece fa-5x"></i>
-                            </div>
-                            <div class="col-xs-8 text-right">
-                                <span> Nitrogen </span>
-                                <h2 class="font-bold">
-                                    <div id="nitrogenPercentage"></div>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <h5>  </h5>
-
-                        </div>
-                        <div class="ibox-content">
-                            <div id="morris-line-chart" style="width:"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <h5>Air Composition</h5>
-                            <div class="ibox-tools">
-                                <a class="collapse-link">
-                                    <i class="fa fa-chevron-up"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="ibox-content">
-                            <div id="morris-donut-chart" ></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="footer">
-            <div>
-                <strong>Copyright</strong> Ozious Technology &copy; 2015/16
             </div>
         </div>
-
     </div>
 </div>
 
 
 </div>
 
-
+<!-- Mainly scripts -->
 <script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Flot -->
+<script src="js/plugins/flot/jquery.flot.js"></script>
+<script src="js/plugins/flot/jquery.flot.tooltip.min.js"></script>
+<script src="js/plugins/flot/jquery.flot.resize.js"></script>
+<script src="js/plugins/flot/jquery.flot.pie.js"></script>
 
 <!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
+
+<!-- Flot demo data -->
+<script src="flot-demo.js"></script>
+
+<!-- Mainly scripts -->
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="js/inspinia.js"></script>
+<script src="js/plugins/pace/pace.min.js"></script>
 <script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
 <!-- Chosen -->
@@ -291,6 +237,9 @@
 <!-- Data picker -->
 <script src="js/plugins/datapicker/bootstrap-datepicker.js"></script>
 
+<!-- NouSlider -->
+<script src="js/plugins/nouslider/jquery.nouislider.min.js"></script>
+
 <!-- Switchery -->
 <script src="js/plugins/switchery/switchery.js"></script>
 
@@ -302,22 +251,6 @@
 
 <!-- MENU -->
 <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-
-<!-- Data picker -->
-<script src="js/plugins/datapicker/bootstrap-datepicker.js"></script>
-
-<!-- Mainly scripts -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
-<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-
-<!-- Custom and plugin javascript -->
-<script src="js/inspinia.js"></script>
-<script src="js/plugins/pace/pace.min.js"></script>
-
-<script src="js/plugins/morris/raphael-2.1.0.min.js"></script>
-<script src="js/plugins/morris/morris.js"></script>
-<script src="js/demo/morris-demo.js"></script>
 
 <script>
     $(document).ready(function(){
@@ -385,6 +318,87 @@
         $(selector).chosen(config[selector]);
     }
 
+    $("#ionrange_1").ionRangeSlider({
+        min: 0,
+        max: 5000,
+        type: 'double',
+        prefix: "$",
+        maxPostfix: "+",
+        prettify: false,
+        hasGrid: true
+    });
+
+    $("#ionrange_2").ionRangeSlider({
+        min: 0,
+        max: 10,
+        type: 'single',
+        step: 0.1,
+        postfix: " carats",
+        prettify: false,
+        hasGrid: true
+    });
+
+    $("#ionrange_3").ionRangeSlider({
+        min: -50,
+        max: 50,
+        from: 0,
+        postfix: "�",
+        prettify: false,
+        hasGrid: true
+    });
+
+    $("#ionrange_4").ionRangeSlider({
+        values: [
+            "January", "February", "March",
+            "April", "May", "June",
+            "July", "August", "September",
+            "October", "November", "December"
+        ],
+        type: 'single',
+        hasGrid: true
+    });
+
+    $("#ionrange_5").ionRangeSlider({
+        min: 10000,
+        max: 100000,
+        step: 100,
+        postfix: " km",
+        from: 55000,
+        hideMinMax: true,
+        hideFromTo: false
+    });
+
+    $(".dial").knob();
+
+    $("#basic_slider").noUiSlider({
+        start: 40,
+        behaviour: 'tap',
+        connect: 'upper',
+        range: {
+            'min':  20,
+            'max':  80
+        }
+    });
+
+    $("#range_slider").noUiSlider({
+        start: [ 40, 60 ],
+        behaviour: 'drag',
+        connect: true,
+        range: {
+            'min':  20,
+            'max':  80
+        }
+    });
+
+    $("#drag-fixed").noUiSlider({
+        start: [ 40, 60 ],
+        behaviour: 'drag-fixed',
+        connect: true,
+        range: {
+            'min':  20,
+            'max':  80
+        }
+    });
 </script>
 
 </body>
