@@ -162,18 +162,16 @@ session_start();
                         <form method="get" class="form-horizontal">
 
                             <div class="form-group"><label class="col-sm-2 control-label">Select Location</label>
-                                <div class="col-sm-10"><select class="form-control m-b" name="account">
-                                        <option>Average</option>
-                                        <option>Colombo 1</option>
-                                        <option>Colombo 2</option>
-                                        <option>Colombo 3</option>
-                                        <option>Colombo 4</option>
-                                        <option>Colombo 5</option>
-                                        <option>Colombo 6</option>
-                                        <option>Colombo 7</option>
-                                        <option>Colombo 8</option>
-                                        <option>Colombo 9</option>
-                                        <option>Colombo 10</option>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="account">
+                                        <option selected disabled>- Select a location -</option>
+                                        <?php
+                                        $locationController = new LocationController();
+                                        $locations = $locationController->selectAll();
+                                        foreach($locations as $location){
+                                            echo '<option value="'.$location->getLocationId().'">'.$location->getLocationName().'</option>';
+                                        }
+                                        ?>
                                     </select>
                                 </div>
                             </div>

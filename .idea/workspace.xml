@@ -2,70 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_location.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_manufacturer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/location_add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manufacturer_add.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\angularjs.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\badges_labels.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\basic_gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\css_animation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\dashboard_2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\dashboard_3.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\draggable_panels.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\empty_page.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\faq.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\file_manager.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_advanced.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_basic.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_editors.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_file_upload.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\form_wizard.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_chartjs.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_flot.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_morris.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_peity.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_rickshaw.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\graph_sparkline.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\grid_options.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\icons.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\invoice.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\invoice_print.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\lockscreen.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\login.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\mail_compose.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\mail_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\mailbox.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\notifications.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\pin_board.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\profile.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\project_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\projects.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\register.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\search_results.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\table_basic.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\table_data_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\tabs_panels.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\timeline.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\typography.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\video.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\Environment-Monitoring-System\widgets.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/Login.php" afterPath="$PROJECT_DIR$/php/Login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board_add.php" afterPath="$PROJECT_DIR$/board_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/device_add.php" afterPath="$PROJECT_DIR$/device_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_sensor.php" afterPath="$PROJECT_DIR$/edit_sensor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_sensor_board.php" afterPath="$PROJECT_DIR$/edit_sensor_board.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temperature.php" afterPath="$PROJECT_DIR$/temperature.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_add.php" afterPath="$PROJECT_DIR$/user_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wind.php" afterPath="$PROJECT_DIR$/wind.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_location.php" afterPath="$PROJECT_DIR$/edit_location.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_manufacturer.php" afterPath="$PROJECT_DIR$/edit_manufacturer.php" />
     </list>
     <ignored path="ozious.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,21 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="location_add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/location_add.php">
+      <file leaf-file-name="board_add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/board_add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="52.23077">
-              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manufacturer_add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manufacturer_add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3846154">
-              <caret line="157" column="46" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
+            <state vertical-scroll-proportion="-12.269231">
+              <caret line="176" column="50" selection-start-line="169" selection-start-column="48" selection-end-line="176" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -122,8 +50,8 @@
       <file leaf-file-name="edit_location.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edit_location.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.653846">
-              <caret line="158" column="68" selection-start-line="158" selection-start-column="68" selection-end-line="158" selection-end-column="68" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="173" column="42" selection-start-line="166" selection-start-column="40" selection-end-line="173" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -132,68 +60,18 @@
       <file leaf-file-name="edit_manufacturer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/edit_manufacturer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.807693">
-              <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_sensor.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edit_sensor.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-7.6538463">
-              <caret line="158" column="63" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
+              <caret line="170" column="143" selection-start-line="170" selection-start-column="143" selection-end-line="170" selection-end-column="143" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_sensor_board.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/edit_sensor_board.php">
+      <file leaf-file-name="Manufacturer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/model/Manufacturer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15384616">
-              <caret line="158" column="91" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.807692">
-              <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wind.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wind.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.961538">
-              <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="device_add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="46.692307">
-              <caret line="90" column="82" selection-start-line="90" selection-start-column="82" selection-end-line="90" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="board_add.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/board_add.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9615386">
-              <caret line="162" column="86" selection-start-line="162" selection-start-column="86" selection-end-line="162" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.69899666">
+              <caret line="58" column="39" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -266,10 +144,10 @@
         <option value="$PROJECT_DIR$/device_add.php" />
         <option value="$PROJECT_DIR$/board_add.php" />
         <option value="$PROJECT_DIR$/manufacturer_add.php" />
-        <option value="$PROJECT_DIR$/edit_location.php" />
-        <option value="$PROJECT_DIR$/edit_manufacturer.php" />
         <option value="$PROJECT_DIR$/edit_sensor.php" />
         <option value="$PROJECT_DIR$/edit_sensor_board.php" />
+        <option value="$PROJECT_DIR$/edit_location.php" />
+        <option value="$PROJECT_DIR$/edit_manufacturer.php" />
       </list>
     </option>
   </component>
@@ -345,6 +223,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ozious" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Environment-Monitoring-System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,10 +422,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -586,13 +486,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/AirCompositionReadings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/ajax/TemperatureReading.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -894,38 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.807692">
-          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wind.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.961538">
-          <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="46.692307">
-          <caret line="90" column="82" selection-start-line="90" selection-start-column="82" selection-end-line="90" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/board_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9615386">
-          <caret line="162" column="86" selection-start-line="162" selection-start-column="86" selection-end-line="162" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/location_add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="52.23077">
@@ -942,34 +803,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit_location.php">
+    <entry file="file://$PROJECT_DIR$/edit_sensor_board.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.653846">
-          <caret line="158" column="68" selection-start-line="158" selection-start-column="68" selection-end-line="158" selection-end-column="68" />
+        <state vertical-scroll-proportion="3.7324414">
+          <caret line="158" column="91" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit_manufacturer.php">
+    <entry file="file://$PROJECT_DIR$/user_add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.807693">
-          <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.77424747">
+          <caret line="94" column="34" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wind.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91137123">
+          <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0301003">
+          <caret line="90" column="82" selection-start-line="90" selection-start-column="82" selection-end-line="90" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/edit_sensor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6538463">
+        <state vertical-scroll-proportion="0.028428094">
           <caret line="158" column="63" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit_sensor_board.php">
+    <entry file="file://$PROJECT_DIR$/board_add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15384616">
-          <caret line="158" column="91" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
+        <state vertical-scroll-proportion="-12.269231">
+          <caret line="176" column="50" selection-start-line="169" selection-start-column="48" selection-end-line="176" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="173" column="42" selection-start-line="166" selection-start-column="40" selection-end-line="173" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_manufacturer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6538463">
+          <caret line="170" column="143" selection-start-line="170" selection-start-column="143" selection-end-line="170" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/Manufacturer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69899666">
+          <caret line="58" column="39" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="39" />
           <folding />
         </state>
       </provider>

@@ -163,17 +163,14 @@ session_start();
 
                             <div class="form-group"><label class="col-sm-2 control-label">Select Manufacturer</label>
                                 <div class="col-sm-10"><select class="form-control m-b" name="account">
-                                        <option>Average</option>
-                                        <option>Colombo 1</option>
-                                        <option>Colombo 2</option>
-                                        <option>Colombo 3</option>
-                                        <option>Colombo 4</option>
-                                        <option>Colombo 5</option>
-                                        <option>Colombo 6</option>
-                                        <option>Colombo 7</option>
-                                        <option>Colombo 8</option>
-                                        <option>Colombo 9</option>
-                                        <option>Colombo 10</option>
+                                        <option selected disabled>- Select a manufacturer -</option>
+                                        <?php
+                                        $manufacturerController = new ManufacturerController();
+                                        $manufacturers = $manufacturerController->selectAll();
+                                        foreach($manufacturers as $manufacturer){
+                                            echo '<option value="'.$manufacturer->getIdmanufacturer().'">'.$manufacturer->getManufacturerName().'</option>';
+                                        }
+                                        ?>
                                     </select>
                                 </div>
                             </div>
