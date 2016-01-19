@@ -187,11 +187,14 @@
                                         </select>
                                     </div>
                                 </div>
+
                                 <div class="form-group" id="data_2">
                                     <label class="col-sm-2 control-label">Select Date</label>
-                                    <div class="input-group date">
-                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                        <input type="text" class="form-control" value="12/17/2015" name="date" id="date" onchange="showTemperature()">
+                                    <div class="col-sm-10">
+                                        <div class="input-group date">
+                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                            <input type="text" class="form-control" value="12/17/2015" name="date" id="date" onchange="showTemperature()">
+                                        </div>
                                     </div>
                                 </div>
                             </form>

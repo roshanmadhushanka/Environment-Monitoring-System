@@ -183,7 +183,8 @@ session_start();
                                     </div>
 
                                     <div class="form-group"><label class="col-sm-2 control-label">Select Sensor Type</label>
-                                        <div class="col-sm-10"><select class="form-control m-b" name="sensor_type">
+                                        <div class="col-sm-10">
+                                            <select class="form-control m-b" name="sensor_type">
                                                 <option disabled selected>- Select Sensor Type -</option>
                                                 <?php
                                                     $sensorTypeController = new SensorTypeController();
@@ -198,8 +199,11 @@ session_start();
 
                                     <div class="form-group" id="data_2">
                                         <label class="col-sm-2 control-label">Manufactured Date</label>
-                                        <div class="input-group date">
-                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" name="manufactured_date" class="form-control" value="08/25/2014">
+                                        <div class="col-sm-10">
+                                            <div class="input-group date">
+                                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                                <input type="text" name="manufactured_date" class="form-control" value="01/20/2016">
+                                            </div>
                                         </div>
                                     </div>
 

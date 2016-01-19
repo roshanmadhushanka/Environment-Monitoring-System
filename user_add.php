@@ -189,8 +189,10 @@
 
                                     <div class="form-group" id="data_2">
                                         <label class="col-sm-2 control-label">Birthday</label>
-                                        <div class="input-group date">
-                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" name="birthday" class="form-control" value="08/25/2014">
+                                        <div class="col-sm-10">
+                                            <div class="input-group date">
+                                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" name="birthday" class="form-control" value="08/25/2014">
+                                            </div>
                                         </div>
                                     </div>
 
@@ -205,7 +207,29 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5>Remove a user<small>  from the system </small></h5>
+                            </div>
+                            <div class="ibox-content">
+                                <form class="form-horizontal" action="edit_user.php">
+                                    <div class="form-group" >
+                                        <div class="col-sm-4 col-sm-offset-2">
+                                            <input type="submit" class="btn btn-primary" value="Select a user to delete" >
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+
+            </div>
 </div>
 
 
