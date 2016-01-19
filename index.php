@@ -27,7 +27,7 @@ include "LoadClass.php";
     <script
         type="text/javascript" src="/assets/script/canvasjs.min.js">
     </script>
-
+    <script type="text/javascript" src="AutoTemperature.js"></script>
 </head>
 
 <body>
