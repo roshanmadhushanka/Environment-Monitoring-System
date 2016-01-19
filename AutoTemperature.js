@@ -27,6 +27,12 @@ function createXmlHttpRequestObject(){
 }
 
 function process(){
+    try{
+        xmlHttp = createXmlHttpRequestObject();
+    }catch(err){
+        alert(err.message);
+    }
+
     if(xmlHttp.readyState == 4 || xmlHttp.readyState == 0){
         var value = getRandom(28, 35);
         value = value.toFixed(2);

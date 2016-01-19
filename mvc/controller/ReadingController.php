@@ -133,7 +133,7 @@ class ReadingController
 
     }
 
-    function getOxygenPercentageByLocation($location, $date){
+    function getOxygenPercentageByLocationDate($location, $date){
         //Convert date into the required format
         $formatted_date = date("Y-m-d", strtotime($date));
 
@@ -170,7 +170,7 @@ class ReadingController
 
     }
 
-    function getNitrogenPercentageByLocation($location, $date){
+    function getNitrogenPercentageByLocationDate($location, $date){
         //Convert date into the required format
         $formatted_date = date("Y-m-d", strtotime($date));
 
@@ -205,5 +205,77 @@ class ReadingController
             return 'Not detected';
         }
 
+    }
+
+    function getTemperatureByLocationDate($location, $date){
+        //Convert date into the required format
+        $formatted_date = date("Y-m-d", strtotime($date));
+
+        //Daabase query
+        $query="SELECT * FROM `reading` AS R, `location` AS L, `sensor` AS S, `sensor_board` AS B, `sensor_type` AS T WHERE R.sensor_idsensor = S.idsensor AND S.sensor_board_id = B.idsensor_board AND B.location_id = L.idlocation AND S.sensor_type = T.idsensor_type AND L.idlocation='".$location."' AND T.type_name='Temperature' AND R.date='".$formatted_date."'";
+
+        //Open Connection
+        $this->con->openConnection();
+
+        //Variable Declaration
+        $readings = array();
+        $tot = 0;
+        $count = 0;
+
+        //Calculation part
+        if($result = $this->con->executeRawQuery($query)){
+            while($row = $result->fetch_array()){
+                $read = new Reading($row['idreading'], $row['sensor_idsensor'], $row['date'], $row['time'], $row['value']);
+                $tot += $read->getValue();
+                $count += 1;
+                $readings[] = $read;
+            }
+        }
+
+        //Close connection
+        $this->con->closeConnection();
+
+        //Return result
+        if($count != 0){
+            return $tot/$count;
+        }else{
+            return 'Not detected';
+        }
+    }
+
+    function getTemperatureByLocationDateToArray($location, $date){
+        //Convert date into the required format
+        $formatted_date = date("Y-m-d", strtotime($date));
+
+        //Daabase query
+        $query="SELECT * FROM `reading` AS R, `location` AS L, `sensor` AS S, `sensor_board` AS B, `sensor_type` AS T WHERE R.sensor_idsensor = S.idsensor AND S.sensor_board_id = B.idsensor_board AND B.location_id = L.idlocation AND S.sensor_type = T.idsensor_type AND L.idlocation='".$location."' AND T.type_name='Temperature' AND R.date='".$formatted_date."' ORDER BY R.idreading DESC LIMIT 50";
+
+        //Open Connection
+        $this->con->openConnection();
+
+        //Variable Declaration
+        $readings = array();
+        $str = '';
+        $count = 0;
+
+        //Calculation part
+        if($result = $this->con->executeRawQuery($query)){
+            while($row = $result->fetch_array()){
+                $read = new Reading($row['idreading'], $row['sensor_idsensor'], $row['date'], $row['time'], $row['value']);
+                $readings[] = $read;
+                $str .= $read->getValue().':';
+                $count += 1;
+            }
+        }
+
+        //Close connection
+        $this->con->closeConnection();
+
+        //Return result
+        if($count != 0){
+            return $str;
+        }else{
+            return 'Not detected';
+        }
     }
 }

@@ -1,10 +1,14 @@
 <html>
 <head>
-    <script type="text/javascript" src="AutoTemperature.js"></script>
 </head>
-<body onload="process()">
-<div>Random Temperature = </div>
-    <div id="randomValue"></div>
+<body>
+<?php
+include "LoadClass.php";
+$loc = 4;
+$readingController = new ReadingController();
+$val = $readingController->getTemperatureByLocationDate('4' ,'2016-01-14');
+echo $val;
+?>
 
 </body>
 </html>

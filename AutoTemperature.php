@@ -6,7 +6,7 @@ $value = $_GET['randvalue'];
 echo $value;
 include "LoadClass.php";
 $readingController = new ReadingController();
-$reading = new Reading(0,9,date("Y-m-d"), date("h:i:sa"), $value);
+$reading = new Reading(0,8,date("Y-m-d"), date("h:i:sa"), $value);
 $readingController->insert($reading);
 echo '</response>';
 ?>

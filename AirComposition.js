@@ -27,6 +27,12 @@ function createXmlHttpRequestObject(){
 }
 
 function process(){
+    try{
+        xmlHttp = createXmlHttpRequestObject();
+    }catch(err){
+        alert(err.message);
+    }
+
     if(xmlHttp.readyState == 4 || xmlHttp.readyState == 0){
         loc = encodeURIComponent(document.getElementById("location").value);
         date = encodeURIComponent(document.getElementById("date").value);
@@ -34,8 +40,6 @@ function process(){
         xmlHttp.onreadystatechange = handleServerResponse;
         xmlHttp.send(null);
     }else{
-        //setTimeout('process()', 1000);
-
     }
 }
 
@@ -46,12 +50,11 @@ function handleServerResponse(){
             xmlDocumentElement = xmlResponse.documentElement;
             var message = xmlDocumentElement.firstChild.data;
             var result = message.split(":");
-            //document.getElementById("oxygenPercentage").innerHTML = '<span style="color:white">' + message + '%</span>';
+
             document.getElementById("oxygenPercentage").innerHTML = '<span>'+result[0]+'%</span>';
             document.getElementById("nitrogenPercentage").innerHTML = '<span>'+result[1]+'%</span>';
         }else{
             alert("Something went wong");
         }
-
     }
 }
