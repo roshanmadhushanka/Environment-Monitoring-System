@@ -13,11 +13,5 @@ if($user != null){
     header('Location: ../index.php');
 }
 
-/**
- * Created by PhpStorm.
- * User: Roshan
- * Date: 12/16/2015
- * Time: 10:51 PM
- */
 ?>
 

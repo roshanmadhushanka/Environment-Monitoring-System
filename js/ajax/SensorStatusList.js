@@ -25,7 +25,7 @@ function createXmlHttpRequestObject(){
     }
 }
 
-function showTemperature(){
+function showSensorStatus(){
     try{
         xmlHttp = createXmlHttpRequestObject();
     }catch(err){
@@ -33,14 +33,13 @@ function showTemperature(){
     }
 
     if(xmlHttp.readyState == 4 || xmlHttp.readyState == 0){
-        var loc = document.getElementById("location").value;
-        var date = document.getElementById("date").value;
-        xmlHttp.open("GET", "http://localhost/ozious/php/TemperatureReadings.php?loc="+loc+"&date=2016-01-15", true);
+        var status = document.getElementById("status_type").value;
+        xmlHttp.open("GET", "http://localhost/ozious/php/SensorStatusList.php?status="+status, true);
         xmlHttp.onreadystatechange = handleServerResponse;
         xmlHttp.send(null);
         setTimeout('showTemperature()', 1000);
     }else{
-        alert("Error Occurred while loading temperature");
+        alert("Error occurred");
     }
 }
 
@@ -48,18 +47,7 @@ function handleServerResponse(){
     if(xmlHttp.readyState == 4){
         if(xmlHttp.status == 200 || xmlHttp.status == 304){
             var message = xmlHttp.responseText;
-            var data = message.split(":");
-            var res = [];
-            var tot = 0;
-            for (var i = 0; i < data.length-1; ++i) {
-                res.push([i, data[i]]);
-                tot += parseFloat(data[i]);
-            }
-            tot = tot/(data.length-1);
-            tot = tot.toFixed(2);
-            $.plot($("#flot-line-chart-moving"), [ res ]);
-            document.getElementById("avgtemperature").innerHTML = '<span>'+ tot +'</span>';
-            //alert(message);
+            document.getElementById("sensor_status_list").innerHTML = message;
         }else{
             alert("Something went wrong");
         }

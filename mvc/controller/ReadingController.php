@@ -138,7 +138,7 @@ class ReadingController
         $formatted_date = date("Y-m-d", strtotime($date));
 
         //Daabase query
-        $query="SELECT * FROM `reading` AS R, `location` AS L, `sensor` AS S, `sensor_board` AS B, `sensor_type` AS T WHERE R.sensor_idsensor = S.idsensor AND S.sensor_board_id = B.idsensor_board AND B.location_id = L.idlocation AND S.sensor_type = T.idsensor_type AND L.idlocation='".$location."' AND T.type_name='Oxygen' AND R.date='".$formatted_date."'";
+        $query = "SELECT * FROM `reading_view` WHERE idlocation='".$location."' AND type_name='Oxygen' AND date='".$formatted_date."'";
 
         //Open Connection
         $this->con->openConnection();
@@ -176,7 +176,7 @@ class ReadingController
         $formatted_date = date("Y-m-d", strtotime($date));
 
         //Daabase query
-        $query="SELECT * FROM `reading` AS R, `location` AS L, `sensor` AS S, `sensor_board` AS B, `sensor_type` AS T WHERE R.sensor_idsensor = S.idsensor AND S.sensor_board_id = B.idsensor_board AND B.location_id = L.idlocation AND S.sensor_type = T.idsensor_type AND L.idlocation='".$location."' AND T.type_name='Nitrogen' AND R.date='".$formatted_date."'";
+        $query = "SELECT * FROM `reading_view` WHERE idlocation='".$location."' AND type_name='Nitrogen' AND date='".$formatted_date."'";
 
         //Open Connection
         $this->con->openConnection();

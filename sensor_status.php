@@ -1,6 +1,6 @@
 <?php
-    include "LoadClass.php";
-    session_start();
+session_start();
+include "LoadClass.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -22,20 +22,20 @@
 
     <link href="css/plugins/ionRangeSlider/ion.rangeSlider.css" rel="stylesheet">
     <link href="css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" rel="stylesheet">
-
+    <script type="text/javascript" src="js/ajax/SensorStatusList.js"></script>
 </head>
 
-<body>
+<body onload="showSensorStatus()">
 
 <div id="wrapper">
-            <nav class="navbar-default navbar-static-side" role="navigation">
-                <div class="sidebar-collapse">
-                    <ul class="nav" id="side-menu">
-                        <li class="nav-header">
-                            <div class="dropdown profile-element"> <span>
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element"> <span>
                             <img alt="image" class="img-circle" src="img/profile_small.jpg" />
                              </span>
-                                <a data-toggle="dropdown" class="dropdown-toggle" href="index.php#">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.php#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">
                                         <?php
                                         if(isset($_SESSION['current_user_id'])){
@@ -59,133 +59,115 @@
                                     }
                                     ?><b class="caret"></b></span> </span> </a>
 
-                            </div>
+                    </div>
 
 
-                        </li>
-                        <li class="active">
-                            <a href="index.php"><i class="fa fa-th-large"></i> <span class="nav-label">Introduction</span></a>
-                        </li>
+                </li>
+                <li class="active">
+                    <a href="index.php"><i class="fa fa-th-large"></i> <span class="nav-label">Introduction</span></a>
+                </li>
 
-                        <li>
-                            <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Monitor Panel</span><span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li><a href="temperature.php">Temperature & Humidity</a></li>
-                                <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li><a href="device_add.php">Add Sensor</a></li>
-                                <li><a href="board_add.php">Add Sensor Board</a></li>
-                                <li><a href="edit_sensor.php">Edit/Remove Sensor</a></li>
-                                <li><a href="edit_sensor_board.php">Edit/Remove Sensor Board</a></li>
-                                <li><a href="sensor_status.php">Sensor Status</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
-                        </li>
+                <li>
+                    <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Monitor Panel</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="temperature.php">Temperature & Humidity</a></li>
+                        <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
                     </ul>
+                </li>
+
+                <li>
+                    <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="device_add.php">Add Sensor</a></li>
+                        <li><a href="board_add.php">Add Sensor Board</a></li>
+                        <li><a href="edit_sensor.php">Edit/Remove Sensor</a></li>
+                        <li><a href="edit_sensor_board.php">Edit/Remove Sensor Board</a></li>
+                        <li><a href="sensor_status.php">Sensor Status</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div>
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+
+
                 </div>
-            </nav>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <span class="m-r-sm text-muted welcome-message">Welcome to EMS</span>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
+                            <i class="fa fa-envelope"></i>  <span class="label label-warning"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-messages">
 
-            <div id="page-wrapper" class="gray-bg dashbard-1">
-                <div>
-                    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                        <div class="navbar-header">
-
-
-                        </div>
-                        <ul class="nav navbar-top-links navbar-right">
-                            <li>
-                                <span class="m-r-sm text-muted welcome-message">Welcome to EMS</span>
-                            </li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
-                                    <i class="fa fa-envelope"></i>  <span class="label label-warning"></span>
-                                </a>
-                                <ul class="dropdown-menu dropdown-messages">
-
-                                    <li class="divider"></li>
-                                    <li>
-                                        <div class="text-center link-block">
-                                            <a href="mailbox.html">
-                                                <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
-                                    <i class="fa fa-bell"></i>  <span class="label label-primary"></span>
-                                </a>
-                                <ul class="dropdown-menu dropdown-alerts"
                             <li class="divider"></li>
                             <li>
                                 <div class="text-center link-block">
-                                    <a href="notifications.html">
-                                        <strong>See All Alerts</strong>
-                                        <i class="fa fa-angle-right"></i>
+                                    <a href="">
+                                        <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
                                     </a>
                                 </div>
                             </li>
                         </ul>
-                        </li>
-
-
-                        <li>
-                            <a href="login.php">
-                                <i class="fa fa-sign-out"></i> Log out
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
+                            <i class="fa fa-bell"></i>  <span class="label label-primary"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts"
+                    <li class="divider"></li>
+                    <li>
+                        <div class="text-center link-block">
+                            <a href="">
+                                <strong>See All Alerts</strong>
+                                <i class="fa fa-angle-right"></i>
                             </a>
-                        </li>
-                        </ul>
-
-                    </nav>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="ibox float-e-margins">
-                            <div class="ibox-title">
-                                <h5>Add a sensor board<small> to an available sensor board </small></h5>
-                            </div>
-                            <div class="ibox-content">
-
-                                <form method="post" action="php/DeleteSensor.php" class="form-horizontal">
-
-                                    <div class="form-group"><label class="col-sm-2 control-label">Select Board</label>
-                                        <div class="col-sm-10">
-                                            <select class="form-control m-b" name="sensor">
-                                                <option disabled selected>- Select a sensor -</option>
-                                                <?php
-                                                $sensorController = new SensorController();
-                                                $sensors = $sensorController->selectAll();
-                                                foreach($sensors as $sensor){
-                                                    echo '<option value="'.$sensor->getIdsensor().'">'.$sensor->getIdsensor().'</option>';
-                                                }
-                                                ?>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <div class="col-sm-4 col-sm-offset-2">
-                                            <a class="btn btn-white" type="submit">Cancel</a>
-                                            <input type="submit" class="btn btn-primary" value="Delete">
-                                        </div>
-                                    </div>
-
-                                </form>
-                            </div>
                         </div>
+                    </li>
+                </ul>
+                </li>
+
+
+                <li>
+                    <a href="login.php">
+                        <i class="fa fa-sign-out"></i> Log out
+                    </a>
+                </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>Monitor <small>  sensor status </small></h5>
+                    </div>
+                    <div class="ibox-content">
+                        <div><h5>Filter by </h5>
+                            <select id="status_type" class="col-lg-2 form-control" onchange="showSensorStatus()">
+                                <option selected value="0">All</option>
+                                <option value="Working">Working</option>
+                                <option value="Not Working">Not Working</option>
+                            </select>
+                        </div>
+                        <div id="sensor_status_list"></div>
+
                     </div>
                 </div>
-                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 

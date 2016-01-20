@@ -24,6 +24,7 @@ include $controller.'SensorStatusController.php';
 include $controller.'SensorTypeController.php';
 include $controller.'UserController.php';
 include $controller.'UserTypeController.php';
+include $controller.'SensorObjController.php';
 
 //Model
 include $model.'Location.php';
@@ -37,5 +38,6 @@ include $model.'SensorStatus.php';
 include $model.'SensorType.php';
 include $model.'User.php';
 include $model.'UserType.php';
+include $model.'SensorViewObj.php';
 ?>
 
