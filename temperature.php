@@ -50,10 +50,13 @@
                                 <a data-toggle="dropdown" class="dropdown-toggle" href="index.php#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">
                                         <?php
-                                        if(isset($_SESSION['current_user_id'])){
+                                        if(isset($_SESSION['current_user_id'])) {
                                             $userController = new UserController();
                                             $user = $userController->selectByID($_SESSION['current_user_id']);
-                                            echo $user->getFirstName().' '.$user->getLastName();
+                                            echo $user->getFirstName() . ' ' . $user->getLastName();
+                                        }
+                                        else{
+                                                header('Location:http://localhost/Environment-Monitoring-System/login.php');
                                         }
                                         ?>
                                     </strong>
@@ -257,40 +260,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <h5>Temperature Fluctuation of last year </h5>
-                            <div class="ibox-tools">
-                                <a class="collapse-link">
-                                    <i class="fa fa-chevron-up"></i>
-                                </a>
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="graph_flot.html#">
-                                    <i class="fa fa-wrench"></i>
-                                </a>
-                                <ul class="dropdown-menu dropdown-user">
-                                    <li><a href="graph_flot.html#">Config option 1</a>
-                                    </li>
-                                    <li><a href="graph_flot.html#">Config option 2</a>
-                                    </li>
-                                </ul>
-                                <a class="close-link">
-                                    <i class="fa fa-times"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="ibox-content">
-                            <div class="flot-chart">
-                                <div class="flot-chart-content" id="flot-line-chart-multi"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="footer">
             <div>
                 <strong>Copyright</strong> Ozious Technology &copy; 2015/16
