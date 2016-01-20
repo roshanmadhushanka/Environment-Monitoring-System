@@ -3,7 +3,7 @@ session_start();
 include "LoadClass.php";
 ?>
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 
 <head>
 
@@ -41,9 +41,10 @@ include "LoadClass.php";
             <div class="sidebar-collapse">
                 <ul class="nav" id="side-menu">
                     <li class="nav-header">
-                        <div class="dropdown profile-element"> <span>
-                            <img alt="image" class="img-circle" src="img/profile_small.jpg" />
-                             </span>
+                        <div class="dropdown profile-element">
+                            <span>
+                                <img alt="image" class="img-circle" src="img/profile_small.jpg" />
+                            </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="index.php#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">
                                         <?php
@@ -51,6 +52,10 @@ include "LoadClass.php";
                                                 $userController = new UserController();
                                                 $user = $userController->selectByID($_SESSION['current_user_id']);
                                                 echo $user->getFirstName().' '.$user->getLastName();
+                                            }
+                                            else{
+                                                echo '<script> show_popup(); </script>';
+                                                header('Location:http://localhost/Environment-Monitoring-System/login.php');
                                             }
                                         ?>
                              </strong>
@@ -83,7 +88,7 @@ include "LoadClass.php";
                             <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
                         </ul>
                     </li>
-                    <?php if($_SESSION['user_level_id']==1){ ?>
+                    <?php if(isset($_SESSION['user_level_id']) && $_SESSION['user_level_id']==1){ ?>
                         <li>
                             <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
@@ -313,8 +318,6 @@ include "LoadClass.php";
     <!-- ChartJS-->
     <script src="js/plugins/chartJs/Chart.min.js"></script>
 
-
-
     <script>
         $(document).ready(function() {
             WinMove();
@@ -472,6 +475,18 @@ include "LoadClass.php";
         ga('create', 'UA-4625583-2', 'webapplayers.com');
         ga('send', 'pageview');
 
+    </script>
+
+    <script type="text/javascript">
+        function show_popup() {
+            alert("FUCK YOU!");
+            var p = window.createPopup()
+            var pbody = p.document.body
+            pbody.style.backgroundColor = "lime"
+            pbody.style.border = "solid black 1px"
+            pbody.innerHTML = "This is a pop-up! Click outside to close."
+            p.show(150,150,200,50,document.body)
+        }
     </script>
 </body>
 </html>

@@ -43,6 +43,9 @@
                                             $user = $userController->selectByID($_SESSION['current_user_id']);
                                             echo $user->getFirstName().' '.$user->getLastName();
                                         }
+                                        else{
+                                            header('Location:http://localhost/Environment-Monitoring-System/login.php');
+                                        }
                                         ?>
                                     </strong>
                              </span>
@@ -74,7 +77,7 @@
                                 <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
                             </ul>
                         </li>
-                        <?php if($_SESSION['user_level_id']==1){ ?>
+                        <?php if(isset($_SESSION['user_level_id']) && $_SESSION['user_level_id']==1){ ?>
                             <li>
                                 <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
                                 <ul class="nav nav-second-level">
