@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/DeleteUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/UserController.php" afterPath="$PROJECT_DIR$/mvc/controller/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/device_add.php" afterPath="$PROJECT_DIR$/device_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temperature.php" afterPath="$PROJECT_DIR$/temperature.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_add.php" afterPath="$PROJECT_DIR$/user_add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wind.php" afterPath="$PROJECT_DIR$/wind.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="" />
     <ignored path="ozious.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -458,7 +447,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
