@@ -154,21 +154,20 @@
                                 <h5>Add a sensor board<small> to an available sensor board </small></h5>
                             </div>
                             <div class="ibox-content">
-                                <form method="get" class="form-horizontal">
+
+                                <form method="post" action="php/DeleteSensorBoard.php" class="form-horizontal">
 
                                     <div class="form-group"><label class="col-sm-2 control-label">Select Board</label>
-                                        <div class="col-sm-10"><select class="form-control m-b" name="account">
-                                                <option>Average</option>
-                                                <option>Colombo 1</option>
-                                                <option>Colombo 2</option>
-                                                <option>Colombo 3</option>
-                                                <option>Colombo 4</option>
-                                                <option>Colombo 5</option>
-                                                <option>Colombo 6</option>
-                                                <option>Colombo 7</option>
-                                                <option>Colombo 8</option>
-                                                <option>Colombo 9</option>
-                                                <option>Colombo 10</option>
+                                        <div class="col-sm-10">
+                                            <select class="form-control m-b" name="sensor_board">
+                                                <option disabled selected>- Select a sensor board -</option>
+                                                <?php
+                                                $sensorBoardController = new SensorBoardController();
+                                                $sensorBoards = $sensorBoardController->selectAll();
+                                                foreach($sensorBoards as $sensorBoard){
+                                                    echo '<option value="'.$sensorBoard->getIdsensorBoard().'">'.$sensorBoard->getIdsensorBoard().'</option>';
+                                                }
+                                                ?>
                                             </select>
                                         </div>
                                     </div>
@@ -176,7 +175,7 @@
                                     <div class="form-group">
                                         <div class="col-sm-4 col-sm-offset-2">
                                             <a class="btn btn-white" type="submit">Cancel</a>
-                                            <a class="btn btn-primary" type="submit" href="index.php" >Delete</a>
+                                            <input type="submit" class="btn btn-primary" value="Delete">
                                         </div>
                                     </div>
 

@@ -63,5 +63,21 @@ class SensorController
         $this->con->closeConnection();
     }
 
+    function removeSensorById($id){
+
+        $this->con->openConnection();
+
+        $this->con->openConnection();
+        $query1 = "DELETE FROM `reading` WHERE `sensor_idsensor`='".$id."'";
+        $result = $this->con->executeRawQuery($query1);
+
+        $query2 = "DELETE FROM `sensor` WHERE `idsensor`='".$id."'";
+        $this->con->executeRawQuery($query2);
+
+        $this->con->closeConnection();
+
+
+    }
+
 
 }

@@ -8,9 +8,9 @@ include "../LoadClass.php";
  * Time: 10:46 AM
  */
 
-$id = $_POST['sensor_board'];
+$sb_id = $_POST['sensor_board'];
 
 $sensorBoardController = new SensorBoardController();
-$sensorBoardController->removeSensorBoardByiId($id);
+$sensorBoardController->removeSensorBoardByiId($sb_id);
 
 header('Location: ../edit_sensor_board.php');
