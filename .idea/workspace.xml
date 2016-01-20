@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="Stable Version">
+    <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ozious.iws" />
@@ -119,8 +119,8 @@
       <file leaf-file-name="ReadingController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8206897">
-              <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.87931037">
+              <caret line="211" column="60" selection-start-line="211" selection-start-column="60" selection-end-line="211" selection-end-column="60" />
               <folding>
                 <marker date="1453269015724" expanded="true" signature="262:442" placeholder="INSERT INTO `reading`... " />
                 <marker date="1453269015724" expanded="true" signature="617:640" placeholder="SELECT * FRO... reading" />
@@ -527,12 +527,18 @@
       <option name="project" value="LOCAL" />
       <updated>1453269031745</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Stable Version">
+      <created>1453269049817</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1453269049817</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20717423" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -972,8 +978,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8206897">
-          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.87931037">
+          <caret line="211" column="60" selection-start-line="211" selection-start-column="60" selection-end-line="211" selection-end-column="60" />
           <folding>
             <marker date="1453269015724" expanded="true" signature="262:442" placeholder="INSERT INTO `reading`... " />
             <marker date="1453269015724" expanded="true" signature="617:640" placeholder="SELECT * FRO... reading" />
