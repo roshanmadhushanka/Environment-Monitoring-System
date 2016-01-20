@@ -187,12 +187,12 @@
                                         <div class="col-sm-10"><input type="password" name="confirm_password" class="form-control" required></div>
                                     </div>
 
-                                    <div class="form-group" id="data_2">
-                                        <label class="col-sm-2 control-label">Birthday</label>
-                                        <div class="col-sm-10">
-                                            <div class="input-group date">
-                                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" name="birthday" class="form-control" value="08/25/2014">
-                                            </div>
+                                    <div class="form-group"><label class="col-sm-2 control-label">Select User Type</label>
+                                        <div class="col-sm-10"><select class="form-control m-b" name="user_type">
+                                                <option disabled selected>- Select a user type -</option>
+                                                <option value="1">Admin</option>
+                                                <option value="2">Guest</option>
+                                            </select>
                                         </div>
                                     </div>
 

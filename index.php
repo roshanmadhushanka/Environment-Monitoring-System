@@ -479,7 +479,6 @@ include "LoadClass.php";
 
     <script type="text/javascript">
         function show_popup() {
-            alert("FUCK YOU!");
             var p = window.createPopup()
             var pbody = p.document.body
             pbody.style.backgroundColor = "lime"
