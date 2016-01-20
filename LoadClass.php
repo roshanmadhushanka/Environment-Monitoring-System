@@ -39,5 +39,6 @@ include $model.'SensorType.php';
 include $model.'User.php';
 include $model.'UserType.php';
 include $model.'SensorViewObj.php';
+include $model.'Session.php';
 ?>
 

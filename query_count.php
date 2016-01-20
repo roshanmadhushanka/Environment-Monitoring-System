@@ -100,6 +100,10 @@ if(isset($_SESSION['sensor_board_add_stat'])){
                             <li>
                                 <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
                             </li>
+
+                            <li>
+                                <a href="query_count.php"><i class="fa fa-envelope"></i> <span class="nav-label">Database Monitor</span></a>
+                            </li>
                         <?php } ?>
                     </ul>
                 </div>
@@ -160,8 +164,9 @@ if(isset($_SESSION['sensor_board_add_stat'])){
                     </nav>
                 </div>
 
+                <div class="wrapper wrapper-content animated fadeInRight">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="widget navy-bg no-padding">
                             <div class="p-m">
                                 <h1 class="m-xs">
@@ -175,7 +180,7 @@ if(isset($_SESSION['sensor_board_add_stat'])){
                                 <h3 class="font-bold no-margins">
                                     Total number of sensor readings
                                 </h3>
-                                <small>Income form project Alpha.</small>
+                                <small>Environmental Monitoring System</small>
                             </div>
                             <div class="flot-chart">
                                 <div class="flot-chart-content" id="flot-chart1"></div>
@@ -183,7 +188,37 @@ if(isset($_SESSION['sensor_board_add_stat'])){
                         </div>
                     </div>
                 </div>
+                    <div class="row m-t-lg">
+                        <div class="col-lg-12">
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="ibox-content">
+                                            <div>
+                                                <div>
+                                                    <span>Readings</span>
+                                                    <small class="pull-right">
+                                                        <?php
+                                                        global $count;
+                                                        $reading_controller = new ReadingController();
+                                                        $count= $reading_controller->getCount();
+                                                        echo $count;
+                                                        ?>/20000
 
+                                                    </small>
+                                                <div class="progress progress-bar-navy-light">
+                                                    <div style="width: <?php
+                                                    $reading_controller = new ReadingController();
+                                                    echo (($count/20000))*100;
+                                                    ?>%;" class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
                 </div>
 </div>
