@@ -33,7 +33,7 @@ include "LoadClass.php";
 
 <body>
     <!-- Test Redirect PHP -->
-    <?php header('Location: test.php');?>
+    <?php //header('Location: test.php');?>
     <!-- End Test Redirect PHP -->
 
     <div id="wrapper">
@@ -100,6 +100,7 @@ include "LoadClass.php";
                                 <li><a href="location_add.php">Add Location</a></li>
                                 <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
                                 <li><a href="edit_location.php">Remove Location</a></li>
+                                <li><a href="sensor_status.php">Sensor Status</a></li>
                             </ul>
                         </li>
 

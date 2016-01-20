@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Environmental Monitoring System | Login</title>
+    <title>Environmentalcredentials System | Login</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -20,7 +20,19 @@
 </head>
 
 <body class="gray-bg">
+    <?php
+        session_start();
+        if(isset($_SESSION['login_status'])){
+            if($_SESSION['login_status'] == 0){
+                echo '<div class="alert alert-warning alert-dismissable">
+                                <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+            Invalid login credentials.
+                            </div>';
+            }
+            unset($_SESSION['login_status']);
+        }
 
+    ?>
     <div class="middle-box text-center loginscreen  animated fadeInDown">
         <div>
             <div>

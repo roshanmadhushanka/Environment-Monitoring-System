@@ -80,8 +80,12 @@ include "LoadClass.php";
                     <ul class="nav nav-second-level">
                         <li><a href="device_add.php">Add Sensor</a></li>
                         <li><a href="board_add.php">Add Sensor Board</a></li>
-                        <li><a href="edit_sensor.php">Edit/Remove Sensor</a></li>
-                        <li><a href="edit_sensor_board.php">Edit/Remove Sensor Board</a></li>
+                        <li><a href="edit_sensor.php">Remove Sensor</a></li>
+                        <li><a href="edit_sensor_board.php">Remove Sensor Board</a></li>
+                        <li><a href="manufacturer_add.php">Add Manufacturer</a></li>
+                        <li><a href="location_add.php">Add Location</a></li>
+                        <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
+                        <li><a href="edit_location.php">Remove Location</a></li>
                         <li><a href="sensor_status.php">Sensor Status</a></li>
                     </ul>
                 </li>

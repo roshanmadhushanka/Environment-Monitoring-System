@@ -10,10 +10,16 @@ $userLoginController = new UserLoginController();
 
 $user = $userLoginController->getUserLogin($user_name, $password);
 if($user != null){
-    $_SESSION['current_user_id'] = $user->getUserIduser();
-    $_SESSION['login_id'] = $user->getIduserLogin();
-    $_SESSION['user_level_id'] = $user->getUserTypeIduserType();
-    header('Location: ../index.php');
+    if($user->getStatus() <> 1){
+        $_SESSION['login_status'] = 0;
+        header('Location: ../login.php');
+    }else{
+        $_SESSION['current_user_id'] = $user->getUserIduser();
+        $_SESSION['login_id'] = $user->getIduserLogin();
+        $_SESSION['user_level_id'] = $user->getUserTypeIduserType();
+        $_SESSION['login_status'] = 1;
+        header('Location: ../index.php');
+    }
 }
 
 ?>
