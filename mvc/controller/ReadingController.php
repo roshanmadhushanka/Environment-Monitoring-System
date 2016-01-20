@@ -14,6 +14,20 @@ class ReadingController
         $this->con = new DBase();
     }
 
+    function getCount(){
+        $query = "SELECT * FROM `reading`";
+        $readings = array();
+        $count = 0;
+        $this->con->openConnection();
+        if($result = $this->con->executeRawQuery($query)){
+            while($row = $result->fetch_array()){
+                $count = $count+1;
+            }
+        }
+        $this->con->closeConnection();
+        return $count;
+    }
+
     function insert(Reading $read){
         $query="INSERT INTO `reading`(`sensor_idsensor`, `date`, `time`, `value`) VALUES ('".$read->getSensorIdsensor()."', '".$read->getDate()."', '".$read->getTime()."', '".$read->getValue()."')";
 

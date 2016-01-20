@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/number_gen.php" afterPath="$PROJECT_DIR$/number_gen.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ozious.iws" />
@@ -37,55 +36,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="number_gen.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/number_gen.php">
+      <file leaf-file-name="AutoTemperature.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoTemperature.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23076923">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoTemperature.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoTemperature.php">
+      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/Register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="45" />
+            <state vertical-scroll-proportion="-15.038462">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadingController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/model/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state vertical-scroll-proportion="-17.653847">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/model/UserType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="16.884615">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddUser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/AddUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6454849">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.6923077">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding>
-                <marker date="1453271401566" expanded="true" signature="262:442" placeholder="INSERT INTO `reading`... " />
-                <marker date="1453271401566" expanded="true" signature="617:640" placeholder="SELECT * FRO... reading" />
-                <marker date="1453271401566" expanded="true" signature="1131:1188" placeholder="SELECT * FRO... reading" />
-                <marker date="1453271401566" expanded="true" signature="1682:1762" placeholder="SELECT * FRO... reading" />
-                <marker date="1453271401566" expanded="true" signature="2256:2336" placeholder="SELECT * FRO... reading" />
-                <marker date="1453271401566" expanded="true" signature="2841:2944" placeholder="SELECT * FRO... reading" />
-                <marker date="1453271401566" expanded="true" signature="3459:3573" placeholder="SELECT * FRO... reading" />
-                <marker date="1453271401566" expanded="true" signature="4099:4236" placeholder="SELECT * FRO... reading" />
-                <marker date="1453271401566" expanded="true" signature="4923:5038" placeholder="SELECT * FRO... reading_view" />
-                <marker date="1453271401566" expanded="true" signature="6035:6152" placeholder="SELECT * FRO... reading_view" />
-                <marker date="1453271401566" expanded="true" signature="7140:7484" placeholder="SELECT * FRO... reading" />
-                <marker date="1453271401566" expanded="true" signature="8477:8856" placeholder="SELECT * FRO... reading" />
+                <marker date="1453352389907" expanded="true" signature="746:948" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reading.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc/model/Reading.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.692308">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -327,7 +335,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../insp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -716,26 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/UserType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.307693">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/UserTypeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.15886287">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -775,14 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoTemperature.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -836,22 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/Register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65384614">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56856185">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4832776">
@@ -867,14 +835,6 @@
           <folding>
             <marker date="1453353591836" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/AddUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71571904">
-          <caret line="30" column="41" selection-start-line="19" selection-start-column="0" selection-end-line="30" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,39 +918,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
+    <entry file="file://$PROJECT_DIR$/number_gen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <marker date="1453271401566" expanded="true" signature="262:442" placeholder="INSERT INTO `reading`... " />
-            <marker date="1453271401566" expanded="true" signature="617:640" placeholder="SELECT * FRO... reading" />
-            <marker date="1453271401566" expanded="true" signature="1131:1188" placeholder="SELECT * FRO... reading" />
-            <marker date="1453271401566" expanded="true" signature="1682:1762" placeholder="SELECT * FRO... reading" />
-            <marker date="1453271401566" expanded="true" signature="2256:2336" placeholder="SELECT * FRO... reading" />
-            <marker date="1453271401566" expanded="true" signature="2841:2944" placeholder="SELECT * FRO... reading" />
-            <marker date="1453271401566" expanded="true" signature="3459:3573" placeholder="SELECT * FRO... reading" />
-            <marker date="1453271401566" expanded="true" signature="4099:4236" placeholder="SELECT * FRO... reading" />
-            <marker date="1453271401566" expanded="true" signature="4923:5038" placeholder="SELECT * FRO... reading_view" />
-            <marker date="1453271401566" expanded="true" signature="6035:6152" placeholder="SELECT * FRO... reading_view" />
-            <marker date="1453271401566" expanded="true" signature="7140:7484" placeholder="SELECT * FRO... reading" />
-            <marker date="1453271401566" expanded="true" signature="8477:8856" placeholder="SELECT * FRO... reading" />
-          </folding>
+        <state vertical-scroll-proportion="-5.3076925">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoTemperature.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="45" />
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/number_gen.php">
+    <entry file="file://$PROJECT_DIR$/mvc/controller/ReadingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23076923">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.3979933">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="INSERT INTO `reading`... " />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading_view" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading_view" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading" />
+            <marker date="1453271401566" expanded="true" signature="-1:-1" placeholder="SELECT * FRO... reading" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoTemperature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6923077">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <marker date="1453352389907" expanded="true" signature="746:948" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.653847">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.884615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/AddUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6454849">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
