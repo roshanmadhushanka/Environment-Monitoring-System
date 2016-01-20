@@ -36,6 +36,8 @@ function process(){
     if(xmlHttp.readyState == 4 || xmlHttp.readyState == 0){
         loc = encodeURIComponent(document.getElementById("location").value);
         date = encodeURIComponent(document.getElementById("date").value);
+        alert(loc);
+        alert(date);
         xmlHttp.open("GET", "AirComposition.php?loc="+loc+"&date="+date, true);
         xmlHttp.onreadystatechange = handleServerResponse;
         xmlHttp.send(null);

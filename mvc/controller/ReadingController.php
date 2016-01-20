@@ -170,6 +170,7 @@ class ReadingController
 
     }
 
+
     function getNitrogenPercentageByLocationDate($location, $date){
         //Convert date into the required format
         $formatted_date = date("Y-m-d", strtotime($date));
@@ -206,6 +207,7 @@ class ReadingController
         }
 
     }
+
 
     function getTemperatureByLocationDate($location, $date){
         //Convert date into the required format
@@ -269,8 +271,8 @@ class ReadingController
         }
 
         //Close connection
-        $this->con->closeConnection();
 
+        $this->con->closeConnection();
         //Return result
         if($count != 0){
             return $str;

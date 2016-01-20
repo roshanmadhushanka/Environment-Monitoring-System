@@ -43,10 +43,9 @@ function getAirComposition(){
 
 function handleServerResponse(){
     if(xmlHttp.readyState == 4){
-        if(xmlHttp.status == 200){
+        if(xmlHttp.status == 200 || xmlHttp.status == 304){
             var message = xmlHttp.responseText;
             var result = message.split(":");
-
             document.getElementById("oxygenPercentage").innerHTML = '<span>'+result[0]+'%</span>';
             document.getElementById("nitrogenPercentage").innerHTML = '<span>'+result[1]+'%</span>';
         }else{
