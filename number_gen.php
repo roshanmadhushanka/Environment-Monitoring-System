@@ -25,11 +25,28 @@ session_start();
 
     <div class="middle-box text-center animated fadeInDown">
 
-        <h3 class="font-bold">Page Not Found</h3>
-
+        <h3 class="font-bold">Sensor Data Generator</h3>
         <div class="error-desc">
             This page generates sensor readings
             <?php
+                $index = 8;
+                $value1 = 30;
+                $value2 = 35;
+                $readingController = new ReadingController();
+                while(true){
+                    sleep(10);
+                    if($index==8){
+                        $index = 9;
+                    }
+                    elseif($index==9){
+                        $index = 10;
+                    }
+                    else{
+                        $index = 8;
+                    }
+                    $reading_object = new Reading(0,$index,date("Y-m-d"), date("h:i:sa"), rand($value1,$value2));
+                    $readingController->insert($reading_object);
+                }
 
             ?>
 

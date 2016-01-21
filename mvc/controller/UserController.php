@@ -71,4 +71,18 @@ class UserController
         return $users;
     }
 
+    public function removeUserById($id){
+        $this->con->openConnection();
+
+        $query1 = "DELETE FROM `session` WHERE `user_login_iduser_login` IN (SELECT `iduser_login` FROM `user_login` WHERE `user_iduser` = '".$id."')";
+        $query2 = "DELETE FROM `user_login` WHERE `user_iduser` = '".$id."'";
+        $query3 = "DELETE FROM `user` WHERE `iduser` = '".$id."'";
+
+        $this->con->executeRawQuery($query1);
+        $this->con->executeRawQuery($query2);
+        $this->con->executeRawQuery($query3);
+
+        $this->con->closeConnection();
+
+    }
 }

@@ -7,8 +7,10 @@ include "../LoadClass.php";
  * Time: 2:04 PM
  */
 
+// Get sensor id
 $id = $_POST['sensor'];
 
+// Remove sensor
 $sensorController = new SensorController();
 $sensorController->removeSensorById($id);
 

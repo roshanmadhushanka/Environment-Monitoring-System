@@ -93,6 +93,9 @@ include "LoadClass.php";
                 <li>
                     <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
                 </li>
+                <li>
+                    <a href="query_count.php"><i class="fa fa-envelope"></i> <span class="nav-label">Database Monitor</span></a>
+                </li>
             </ul>
         </div>
     </nav>

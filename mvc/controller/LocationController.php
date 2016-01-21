@@ -108,6 +108,20 @@ class LocationController
         $this->con->closeConnection();
     }
 
+    public function removeLocationById($id){
+        $this->con->openConnection();
 
+        $query1 = "DELETE FROM `reading` WHERE `sensor_idsensor` IN (SELECT `idsensor` FROM `sensor` WHERE `sensor_board_id` IN (SELECT `idsensor_board` FROM `sensor_board` WHERE `location_id` = '".$id."'))";
+        $query2 = "DELETE FROM `sensor` WHERE `sensor_board_id` IN (SELECT `idsensor_board` FROM `sensor_board` WHERE `location_id` = '".$id."')";
+        $query3 = "DELETE FROM `sensor_board` WHERE `location_id` = '".$id."'";
+        $query4 = "DELETE FROM `location` WHERE `idlocation` = '".$id."'";
+
+        $this->con->executeRawQuery($query1);
+        $this->con->executeRawQuery($query2);
+        $this->con->executeRawQuery($query3);
+        $this->con->executeRawQuery($query4);
+
+        $this->con->closeConnection();
+    }
 
 }

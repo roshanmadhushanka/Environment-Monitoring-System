@@ -1,6 +1,10 @@
+
 <?php
-session_start();
 include "LoadClass.php";
+session_start();
+if(isset($_SESSION['sensor_board_add_stat'])){
+    echo '<div class="alert alert-success alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Board Successfully Added!</div>';
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,27 +32,25 @@ include "LoadClass.php";
 <body>
 
 <div id="wrapper">
-    <nav class="navbar-default navbar-static-side" role="navigation">
-        <div class="sidebar-collapse">
-            <ul class="nav" id="side-menu">
-                <li class="nav-header">
-                    <div class="dropdown profile-element"> <span>
+            <nav class="navbar-default navbar-static-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="nav-header">
+                            <div class="dropdown profile-element"> <span>
                             <img alt="image" class="img-circle" src="img/profile_small.jpg" />
                              </span>
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.php#">
+                                <a data-toggle="dropdown" class="dropdown-toggle" href="index.php#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">
                                         <?php
                                         if(isset($_SESSION['current_user_id'])){
                                             $userController = new UserController();
                                             $user = $userController->selectByID($_SESSION['current_user_id']);
                                             echo $user->getFirstName().' '.$user->getLastName();
-
                                         }
                                         else{
                                             header('Location:http://localhost/Environment-Monitoring-System/login.php');
                                         }
                                         ?>
-
                                     </strong>
                              </span>
                              <span class="text-muted text-xs block">
@@ -64,143 +66,161 @@ include "LoadClass.php";
                                     }
                                     ?><b class="caret"></b></span> </span> </a>
 
-                    </div>
+                            </div>
 
 
-                </li>
-                <li class="active">
-                    <a href="index.php"><i class="fa fa-th-large"></i> <span class="nav-label">Introduction</span></a>
-                </li>
+                        </li>
+                        <li class="active">
+                            <a href="index.php"><i class="fa fa-th-large"></i> <span class="nav-label">Introduction</span></a>
+                        </li>
 
-                <li>
-                    <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Monitor Panel</span><span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="temperature.php">Temperature & Humidity</a></li>
-                        <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
+                        <li>
+                            <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Monitor Panel</span><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="temperature.php">Temperature & Humidity</a></li>
+                                <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
+                            </ul>
+                        </li>
+                        <?php if(isset($_SESSION['user_level_id']) && $_SESSION['user_level_id']==1){ ?>
+                            <li>
+                                <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li><a href="device_add.php">Add Sensor</a></li>
+                                    <li><a href="board_add.php">Add Sensor Board</a></li>
+                                    <li><a href="edit_sensor.php">Remove Sensor</a></li>
+                                    <li><a href="edit_sensor_board.php">Remove Sensor Board</a></li>
+                                    <li><a href="manufacturer_add.php">Add Manufacturer</a></li>
+                                    <li><a href="location_add.php">Add Location</a></li>
+                                    <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
+                                    <li><a href="edit_location.php">Remove Location</a></li>
+                                    <li><a href="sensor_status.php">Sensor Status</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
+                            </li>
+
+                            <li>
+                                <a href="query_count.php"><i class="fa fa-envelope"></i> <span class="nav-label">Database Monitor</span></a>
+                            </li>
+                        <?php } ?>
                     </ul>
-                </li>
-                <?php if(isset($_SESSION['user_level_id']) && $_SESSION['user_level_id']==1){ ?>
-                    <li>
-                        <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="device_add.php">Add Sensor</a></li>
-                            <li><a href="board_add.php">Add Sensor Board</a></li>
-                            <li><a href="edit_sensor.php">Remove Sensor</a></li>
-                            <li><a href="edit_sensor_board.php">Remove Sensor Board</a></li>
-                            <li><a href="manufacturer_add.php">Add Manufacturer</a></li>
-                            <li><a href="location_add.php">Add Location</a></li>
-                            <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
-                            <li><a href="edit_location.php">Remove Location</a></li>
-                            <li><a href="sensor_status.php">Sensor Status</a></li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
-                    </li>
-                    <li>
-                        <a href="query_count.php"><i class="fa fa-envelope"></i> <span class="nav-label">Database Monitor</span></a>
-                    </li>
-                <?php } ?>
-            </ul>
-        </div>
-    </nav>
-
-    <div id="page-wrapper" class="gray-bg dashbard-1">
-        <div>
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-
-
                 </div>
-                <ul class="nav navbar-top-links navbar-right">
-                    <li>
-                        <span class="m-r-sm text-muted welcome-message">Welcome to EMS</span>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
-                            <i class="fa fa-envelope"></i>  <span class="label label-warning"></span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-messages">
+            </nav>
 
+            <div id="page-wrapper" class="gray-bg dashbard-1">
+                <div>
+                    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                        <div class="navbar-header">
+
+
+                        </div>
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li>
+                                <span class="m-r-sm text-muted welcome-message">Welcome to EMS</span>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
+                                    <i class="fa fa-envelope"></i>  <span class="label label-warning"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-messages">
+
+                                    <li class="divider"></li>
+                                    <li>
+                                        <div class="text-center link-block">
+                                            <a href="mailbox.html">
+                                                <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
+                                    <i class="fa fa-bell"></i>  <span class="label label-primary"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-alerts"
                             <li class="divider"></li>
                             <li>
                                 <div class="text-center link-block">
-                                    <a href="">
-                                        <i class="fa fa-envelope"></i> <strong>Read All Messages</strong>
+                                    <a href="notifications.html">
+                                        <strong>See All Alerts</strong>
+                                        <i class="fa fa-angle-right"></i>
                                     </a>
                                 </div>
                             </li>
                         </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
-                            <i class="fa fa-bell"></i>  <span class="label label-primary"></span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-alerts"
-                    <li class="divider"></li>
-                    <li>
-                        <div class="text-center link-block">
-                            <a href="">
-                                <strong>See All Alerts</strong>
-                                <i class="fa fa-angle-right"></i>
+                        </li>
+
+
+                        <li>
+                            <a href="login.php">
+                                <i class="fa fa-sign-out"></i> Log out
                             </a>
+                        </li>
+                        </ul>
+
+                    </nav>
+                </div>
+
+                <div class="wrapper wrapper-content animated fadeInRight">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="widget navy-bg no-padding">
+                            <div class="p-m">
+                                <h1 class="m-xs">
+                                    <?php
+                                        $reading_controller = new ReadingController();
+                                        echo $reading_controller->getCount();
+                                    ?>
+
+                                </h1>
+
+                                <h3 class="font-bold no-margins">
+                                    Total number of sensor readings
+                                </h3>
+                                <small>Environmental Monitoring System</small>
+                            </div>
+                            <div class="flot-chart">
+                                <div class="flot-chart-content" id="flot-chart1"></div>
+                            </div>
                         </div>
-                    </li>
-                </ul>
-                </li>
-
-
-                <li>
-                    <a href="login.php">
-                        <i class="fa fa-sign-out"></i> Log out
-                    </a>
-                </li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="ibox float-e-margins">
-                    <div class="ibox-title">
-                        <h5>Add a location <small>  to the system </small></h5>
                     </div>
-                    <div class="ibox-content">
-                        <form method="post" action="php/AddLocation.php" class="form-horizontal">
-                            <div class="form-group"><label class="col-sm-2 control-label">Location Name</label>
-                                <div class="col-sm-10"><input type="text" name="location_name" class="form-control" required></div>
-                            </div>
+                </div>
+                    <div class="row m-t-lg">
+                        <div class="col-lg-12">
+                            <div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="ibox-content">
+                                            <div>
+                                                <div>
+                                                    <span>Readings</span>
+                                                    <small class="pull-right">
+                                                        <?php
+                                                        global $count;
+                                                        $reading_controller = new ReadingController();
+                                                        $count= $reading_controller->getCount();
+                                                        echo $count;
+                                                        ?>/20000
 
-                            <div class="form-group"><label class="col-sm-2 control-label">Location City</label>
-                                <div class="col-sm-10"><input type="text" name="location_city" class="form-control" required></div>
-                            </div>
-
-                            <div class="form-group"><label class="col-sm-2 control-label">Longitude</label>
-                                <div class="col-sm-10"><input type="text" name="longitude" class="form-control" required></div>
-                            </div>
-
-                            <div class="form-group"><label class="col-sm-2 control-label">Latitude</label>
-                                <div class="col-sm-10"><input type="text" name="latitude" class="form-control" required></div>
-                            </div>
-
-                            <div class="form-group"><label class="col-sm-2 control-label">Altitude</label>
-                                <div class="col-sm-10"><input type="text" name="Altitude" class="form-control" required></div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-sm-4 col-sm-offset-2">
-                                    <button class="btn btn-white" type="submit">Cancel</button>
-                                    <input type="submit" class="btn btn-primary" value="Save Changes">
+                                                    </small>
+                                                <div class="progress progress-bar-navy-light">
+                                                    <div style="width: <?php
+                                                    $reading_controller = new ReadingController();
+                                                    echo (($count/20000))*100;
+                                                    ?>%;" class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
-
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+                </div>
 </div>
 
 
@@ -223,7 +243,7 @@ include "LoadClass.php";
 <script src="js/plugins/pace/pace.min.js"></script>
 
 <!-- Flot demo data -->
-<script src="flot-demo.js"></script>
+<script src="js/demo/flot-demo.js"></script>
 
 <!-- Mainly scripts -->
 <script src="js/jquery-1.10.2.js"></script>

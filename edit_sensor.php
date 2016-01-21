@@ -96,6 +96,9 @@
                             <li>
                                 <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
                             </li>
+                            <li>
+                                <a href="query_count.php"><i class="fa fa-envelope"></i> <span class="nav-label">Database Monitor</span></a>
+                            </li>
                         <?php } ?>
                     </ul>
                 </div>
@@ -174,9 +177,20 @@
                                                 $sensorController = new SensorController();
                                                 $sensors = $sensorController->selectAll();
                                                 foreach($sensors as $sensor){
-                                                    echo '<option value="'.$sensor->getIdsensor().'">'.$sensor->getIdsensor().'</option>';
+
+                                                    $sensorTypeController = new SensorTypeController();
+                                                    $sensor_type = $sensorTypeController->selectByID($sensor->getSensorType());
+
+                                                    $sensorBoardController = new SensorBoardController();
+                                                    $sensorBoard = $sensorBoardController->selectByID($sensor->getSensorBoardId());
+
+                                                    $locationController = new LocationController();
+                                                    $loc = $locationController->getLocationByID($sensorBoard->getLocationId());
+
+                                                    echo '<option value="'.$sensor->getIdsensor().'">'.'Sensor '.$sensor->getIdsensor().' - '.$sensor_type->getTypeName().' sensor of board '.$sensor->getSensorBoardId().' at '.$loc->getLocationName().', '.$loc->getLocationCity().' ('.$loc->getLatitude().', '.$loc->getLongitude().')'.'</option>';
                                                 }
                                                 ?>
+
                                             </select>
                                         </div>
                                     </div>
