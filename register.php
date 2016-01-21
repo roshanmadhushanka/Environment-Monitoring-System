@@ -28,15 +28,24 @@
             </div>
             <h3>Register to EMS</h3>
             <p>Create account to see it in action.</p>
-            <form class="m-t" role="form" action="login.html">
+            <form class="m-t" role="form" action="php/Register.php" method="post">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Name" required="">
+                    <input id="first_name" name="first_name" type="text" class="form-control" placeholder="First Name" required="">
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email" required="">
+                    <input id="last_name" name="last_name" type="text" class="form-control" placeholder="Last Name" required="">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password" required="">
+                    <input id="initials" name="initials" type="text" class="form-control" placeholder="Initials" required="">
+                </div>
+                <div class="form-group">
+                    <input id="nic" name="nic" type="text" class="form-control" placeholder="NIC" pattern="^\d{9}(X|V)$" required="">
+                </div>
+                <div class="form-group">
+                    <input id="user_name" name="user_name" type="text" class="form-control" placeholder="User Name" required="">
+                </div>
+                <div class="form-group">
+                    <input id="password" name="password" type="password" class="form-control" placeholder="Password" required="">
                 </div>
                 <div class="form-group">
                         <div class="checkbox i-checks"><label> <input type="checkbox"><i></i> Agree the terms and policy </label></div>

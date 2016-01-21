@@ -67,7 +67,6 @@ class UserLoginController
         $query = "UPDATE `user_login` SET password='".$ul->getPassword()."' WHERE iduser_login='".$ul->getIduserLogin()."'";
         $this->con->openConnection();
         $this->con->executeRawQuery($query);
-
     }
 
 
@@ -75,7 +74,6 @@ class UserLoginController
         $query = "UPDATE `user_login` SET username='".$ul->getUsername()."' WHERE iduser_login='".$ul->getIduserLogin()."'";
         $this->con->openConnection();
         $this->con->executeRawQuery($query);
-
     }
 
 
@@ -83,7 +81,6 @@ class UserLoginController
         $query = "UPDATE `user_login` SET status='".$ul->getStatus()."' WHERE iduser_login='".$ul->getIduserLogin()."'";
         $this->con->openConnection();
         $this->con->executeRawQuery($query);
-
     }
 
 
