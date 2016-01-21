@@ -177,9 +177,13 @@
                                                 $sensorBoardController = new SensorBoardController();
                                                 $sensorBoards = $sensorBoardController->selectAll();
                                                 foreach($sensorBoards as $sensorBoard){
-                                                    echo '<option value="'.$sensorBoard->getIdsensorBoard().'">'.$sensorBoard->getIdsensorBoard().'</option>';
+                                                    $locationController = new LocationController();
+                                                    $loc = $locationController->getLocationByID($sensorBoard->getLocationId());
+
+                                                    echo '<option value="'.$sensorBoard->getIdsensorBoard().'">'.'Board '.$sensorBoard->getIdsensorBoard().' - '.$loc->getLocationName().', '.$loc->getLocationCity().' ('.$loc->getLatitude().', '.$loc->getLongitude().')'.'</option>';
                                                 }
                                                 ?>
+
                                             </select>
                                         </div>
                                     </div>

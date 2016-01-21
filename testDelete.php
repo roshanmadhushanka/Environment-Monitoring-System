@@ -18,12 +18,16 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
+$id = 7;
 // sql to delete a record
-$sql1 = "DELETE FROM `reading` WHERE `sensor_idsensor`=4";
-$sql = "DELETE FROM `sensor` WHERE `idsensor`=4";
+$query1 = "DELETE FROM `reading` WHERE `sensor_idsensor` IN (SELECT `idsensor` FROM `sensor` WHERE `sensor_board_id` IN (SELECT `idsensor_board` FROM `sensor_board` WHERE `location_id` = '".$id."'))";
+$query2 = "DELETE FROM `sensor` WHERE `sensor_board_id` IN (SELECT `idsensor_board` FROM `sensor_board` WHERE `location_id` = '".$id."')";
+$query3 = "DELETE FROM `sensor_board` WHERE `location_id` = '".$id."'";
+$query4 = "DELETE FROM `location` WHERE `idlocation` = '".$id."'";
 
+$q = $query1.";".$query2.";".$query3.";".$query4.";";
 
-if (mysqli_query($conn, $sql)) {
+if (mysqli_query($conn, $query4)) {
     echo "Record deleted successfully";
 } else {
     echo "Error deleting record: " . mysqli_error($conn);

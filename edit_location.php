@@ -168,17 +168,17 @@ session_start();
                         <h5>Remove a location<small> from the system </small></h5>
                     </div>
                     <div class="ibox-content">
-                        <form method="get" class="form-horizontal">
+                        <form method="post" class="form-horizontal" action="php/DeleteLocation.php">
 
                             <div class="form-group"><label class="col-sm-2 control-label">Select Location</label>
                                 <div class="col-sm-10">
-                                    <select class="form-control m-b" name="account">
+                                    <select class="form-control m-b" name="location">
                                         <option selected disabled>- Select a location -</option>
                                         <?php
                                         $locationController = new LocationController();
                                         $locations = $locationController->selectAll();
                                         foreach($locations as $location){
-                                            echo '<option value="'.$location->getLocationId().'">'.$location->getLocationName().'</option>';
+                                            echo '<option value="'.$location->getLocationId().'">'.$location->getLocationName().', '.$location->getLocationCity().'</option>';
                                         }
                                         ?>
                                     </select>
@@ -188,7 +188,7 @@ session_start();
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-2">
                                     <a class="btn btn-white" type="submit">Cancel</a>
-                                    <a class="btn btn-primary" type="submit" href="index.php" >Delete</a>
+                                    <input type="submit" class="btn btn-primary" value="Delete">
                                 </div>
                             </div>
 

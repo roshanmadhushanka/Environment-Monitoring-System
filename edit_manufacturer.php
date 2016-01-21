@@ -166,10 +166,11 @@ session_start();
                         <h5>Remove a manufacturer<small> from the system </small></h5>
                     </div>
                     <div class="ibox-content">
-                        <form method="get" class="form-horizontal">
+                        <form method="post" class="form-horizontal" action="php/DeleteManufacturer.php">
 
                             <div class="form-group"><label class="col-sm-2 control-label">Select Manufacturer</label>
-                                <div class="col-sm-10"><select class="form-control m-b" name="account">
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="manufacturer">
                                         <option selected disabled>- Select a manufacturer -</option>
                                         <?php
                                         $manufacturerController = new ManufacturerController();
@@ -185,7 +186,7 @@ session_start();
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-2">
                                     <a class="btn btn-white" type="submit">Cancel</a>
-                                    <a class="btn btn-primary" type="submit" href="index.php" >Delete</a>
+                                    <input type="submit" class="btn btn-primary" value="Delete">
                                 </div>
                             </div>
 
