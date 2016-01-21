@@ -129,8 +129,11 @@ class ReadingController
         return $readings;
     }
 
-    function delete($id){
-
+    function delete(){
+        $query="DELETE FROM `reading`";
+        $this->con->openConnection();
+        $this->con->executeRawQuery($query);
+        $this->con->closeConnection();
     }
 
     function getOxygenPercentageByLocationDate($location, $date){
@@ -279,5 +282,40 @@ class ReadingController
         }else{
             return 'Not detected';
         }
+    }
+
+    function getHumidityPercentageByLocationDate($location, $date){
+        //Convert date into the required format
+        $formatted_date = date("Y-m-d", strtotime($date));
+
+        //Daabase query
+        $query = "SELECT * FROM `reading_view` WHERE idlocation='".$location."' AND type_name='Humidity' AND date='".$formatted_date."' ORDER BY idreading DESC LIMIT 1";
+
+        //Open Connection
+        $this->con->openConnection();
+
+        //Variable Declaration
+
+        $count = 0;
+        $read = null;
+        //Calculation part
+        if($result = $this->con->executeRawQuery($query)){
+            while($row = $result->fetch_array()){
+                $read = new Reading($row['idreading'], $row['sensor_idsensor'], $row['date'], $row['time'], $row['value']);
+                $count += 1;
+            }
+        }
+
+        //Close connection
+        $this->con->closeConnection();
+
+        //Return result
+        if($count != 0){
+            return $read;
+        }else{
+            $read = new Reading(0,0,"", "", 0);
+            return $read;
+        }
+
     }
 }

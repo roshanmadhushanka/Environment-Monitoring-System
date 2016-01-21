@@ -48,7 +48,9 @@ function handleServerResponse(){
     if(xmlHttp.readyState == 4){
         if(xmlHttp.status == 200 || xmlHttp.status == 304){
             var message = xmlHttp.responseText;
-            var data = message.split(":");
+            var list = message.split("-");
+            var hum = list[0];
+            var data = list[1].split(":");
             var res = [];
             var tot = 0;
             for (var i = 0; i < data.length-1; ++i) {
@@ -59,6 +61,7 @@ function handleServerResponse(){
             tot = tot.toFixed(2);
             $.plot($("#flot-line-chart-moving"), [ res ]);
             document.getElementById("avgtemperature").innerHTML = '<span>'+ tot +'</span>';
+            document.getElementById("humidity").innerHTML = '<span>'+ hum +'%</span>'
         }else{
             alert("Something went wrong");
         }

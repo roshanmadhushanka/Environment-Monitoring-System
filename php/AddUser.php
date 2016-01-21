@@ -15,19 +15,16 @@ $username = $_POST['user_name'];
 $password = $_POST['password'];
 $type = $_POST['user_type'];
 
-echo $first_name.'<br>'.$last_name.'<br>'.$initials.'<br>'.$username.'<br>'.$password;
+echo $first_name.'<br>'.$last_name.'<br>'.$initials.'<br>'.$username.'<br>'.$password.'<br>'.$type;
 
 $userController = new UserController();
 $user = new User('', $first_name, $last_name, $initials, $nic);
 $userController->insert($user);
 $user = $userController->selectByNic($nic);
 
-$userTypeController = new UserTypeController();
-
-$userType = $userTypeController->selectByName($type->getDescription());
 
 $userLoginController = new UserLoginController();
-$userLogin = new UserLogin('', $user->getIduser(), $username, $password, 1, $userType->getIduserType());
+$userLogin = new UserLogin('', $user->getIduser(), $username, $password, 1, $type);
 $userLoginController->insert($userLogin);
 
 header('Location: ../user_add.php');

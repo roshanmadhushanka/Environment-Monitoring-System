@@ -86,6 +86,7 @@
                                     <li><a href="location_add.php">Add Location</a></li>
                                     <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
                                     <li><a href="edit_location.php">Remove Location</a></li>
+                                    <li><a href="sensor_status.php">Sensor Status</a></li>
                                 </ul>
                             </li>
 
@@ -160,11 +161,11 @@
                             <div class="ibox-content">
                                 <form method="post" action="php/AddUser.php" class="form-horizontal">
                                     <div class="form-group"><label class="col-sm-2 control-label">First Name</label>
-                                        <div class="col-sm-10"><input type="text" name="first_name" class="form-control" required></div>
+                                        <div class="col-sm-10"><input type="text" name="first_name"  class="form-control" required></div>
                                     </div>
 
                                     <div class="form-group"><label class="col-sm-2 control-label">Last Name</label>
-                                        <div class="col-sm-10"><input type="text" name="last_name" class="form-control" required></div>
+                                        <div class="col-sm-10"><input type="text" name="last_name"  class="form-control" required></div>
                                     </div>
 
                                     <div class="form-group"><label class="col-sm-2 control-label">Initials</label>
@@ -189,9 +190,8 @@
 
                                     <div class="form-group"><label class="col-sm-2 control-label">Select User Type</label>
                                         <div class="col-sm-10"><select class="form-control m-b" name="user_type">
-                                                <option disabled selected>- Select a user type -</option>
                                                 <option value="1">Admin</option>
-                                                <option value="2">Guest</option>
+                                                <option value="2" selected>Guest</option>
                                             </select>
                                         </div>
                                     </div>
@@ -227,7 +227,72 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5>Activate<small>  pending accounts </small></h5>
+                            </div>
+                            <div class="ibox-content">
+                                <form class="form-horizontal" action="edit_user.php">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <th>
+                                                Status
+                                            </th>
+                                            <th>
+                                                First Name
+                                            </th>
+                                            <th>
+                                                Last Name
+                                            </th>
+                                            <th>
+                                                User Name
+                                            </th>
+                                            <th>
 
+                                            </th>
+                                        </thead>
+                                        <tbody>
+                                        <?php
+                                            $loginViewController = new LoginViewController();
+                                            $users = $loginViewController->getPendingUsers();
+
+                                            foreach($users as $user){
+                                                echo '<tr>';
+                                                    echo '<td class="project-status">
+                                                        <span class="label label-primary">Pending</span>
+                                                    </td>';
+                                                    echo '<td class="project-title">
+                                                        <a href="project_detail.html">'.$user->getFirstName().'</a>
+                                                        <br/>
+                                                        <small> ... </small>
+                                                    </td>';
+                                                    echo '<td class="project-title">
+                                                        <a href="project_detail.html">'.$user->getLastName().'</a>
+                                                        <br/>
+                                                        <small> ... </small>
+                                                    </td>';
+                                                    echo '<td class="project-title">
+                                                        <a href="project_detail.html">'.$user->getUsername().'</a>
+                                                        <br/>
+                                                        <small> ... </small>
+                                                    </td>';
+                                                    echo '<td class="project-actions">
+                                                        <a href="php/UserConfirm.php?q='.$user->getIdUser().'" class="btn btn-default btn-sm"><i class="fa fa-folder"></i> Confirm </a>
+                                                    </td>';
+
+                                                echo '</tr>';
+                                            }
+
+                                        ?>
+                                        </tbody>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 </div>

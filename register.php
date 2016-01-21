@@ -18,7 +18,18 @@
 </head>
 
 <body class="gray-bg">
-
+    <?php
+        session_start();
+        if(isset($_SESSION['registration_status'])){
+            if($_SESSION['registration_status'] == 1){
+                echo '<div class="alert alert-success alert-dismissable">
+                         <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                Your account is pending to be activated</a>.
+                      </div>';
+            }
+            unset($_SESSION['registration_status']);
+        }
+    ?>
     <div class="middle-box text-center loginscreen   animated fadeInDown">
         <div>
             <div>

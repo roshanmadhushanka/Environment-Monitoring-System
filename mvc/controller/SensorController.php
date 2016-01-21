@@ -75,8 +75,6 @@ class SensorController
         $this->con->executeRawQuery($query2);
 
         $this->con->closeConnection();
-
-
     }
 
 

@@ -25,6 +25,8 @@ include $controller.'SensorTypeController.php';
 include $controller.'UserController.php';
 include $controller.'UserTypeController.php';
 include $controller.'SensorObjController.php';
+include $controller.'LoginViewController.php';
+include $controller.'BackupController.php';
 
 //Model
 include $model.'Location.php';
@@ -39,5 +41,8 @@ include $model.'SensorType.php';
 include $model.'User.php';
 include $model.'UserType.php';
 include $model.'SensorViewObj.php';
+include $model.'LoginView.php';
+include $model.'Backup.php';
+
 ?>
 

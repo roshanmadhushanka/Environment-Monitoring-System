@@ -3,7 +3,7 @@
     $loc = $_GET['loc'];
     $date = $_GET['date'];
     $readingController = new ReadingController();
-    //$val = $readingController->getTemperatureByLocationDate($loc ,$date);
-    //echo round($val ,2);
+    $readingController = new ReadingController();
+    $read = $readingController->getHumidityPercentageByLocationDate($loc,"2016-01-01");
     $val = $readingController->getTemperatureByLocationDateToArray($loc, $date);
-    echo $val;
+    echo $read->getValue().'-'.$val;
