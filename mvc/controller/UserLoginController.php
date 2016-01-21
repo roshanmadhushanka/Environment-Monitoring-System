@@ -62,6 +62,16 @@ class UserLoginController
         return $ul;
     }
 
+    public function selectByUserId($id){
+        $query = "SELECT * FROM `user_login` WHERE `user_iduser` ='".$id."' LIMIT 1";
+        $this->con->openConnection();
+        $result = $this->con->executeRawQuery($query);
+        $row = $result->fetch_array();
+        $ul = new UserLogin($row['iduser_login'], $row['user_iduser'], $row['username'], $row['password'], $row['status'], $row['user_type_iduser_type']);
+        $this->con->closeConnection();
+        return $ul;
+    }
+
 
     public function updatePassword(UserLogin $ul){
         $query = "UPDATE `user_login` SET password='".$ul->getPassword()."' WHERE iduser_login='".$ul->getIduserLogin()."'";
@@ -82,6 +92,7 @@ class UserLoginController
         $this->con->openConnection();
         $this->con->executeRawQuery($query);
     }
+
 
 
 }

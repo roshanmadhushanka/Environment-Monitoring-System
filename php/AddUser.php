@@ -24,7 +24,7 @@ $user = $userController->selectByNic($nic);
 
 $userTypeController = new UserTypeController();
 
-$userType = $userTypeController->selectByName($type->getDescription());
+$userType = $userTypeController->selectByName($type);
 
 $userLoginController = new UserLoginController();
 $userLogin = new UserLogin('', $user->getIduser(), $username, $password, 1, $userType->getIduserType());

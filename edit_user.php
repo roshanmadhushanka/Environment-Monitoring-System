@@ -171,13 +171,20 @@ include "LoadClass.php";
 
                             <div class="form-group"><label class="col-sm-2 control-label">Select User</label>
                                 <div class="col-sm-10">
-                                    <select class="form-control m-b" name="sensor_board">
+                                    <select class="form-control m-b" name="user">
                                         <option disabled selected>- Select a user -</option>
                                         <?php
                                         $userController = new UserController();
                                         $users = $userController->selectAll();
                                         foreach($users as $user){
-                                            echo '<option value="'.$user->getIduser().'">'.$user->getFirstName()." ".$user->getLastName().'</option>';
+
+                                            $userLoginController = new UserLoginController();
+                                            $ul = $userLoginController->selectByUserId($user->getIduser());
+
+                                            $userTypeController = new UserTypeController();
+                                            $ut = $userTypeController->selectById($ul->getUserTypeIduserType());
+
+                                            echo '<option value="'.$user->getIduser().'">'.$user->getFirstName()." ".$user->getLastName().' - '.$ut->getDescription().'</option>';
                                         }
                                         ?>
                                     </select>

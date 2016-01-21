@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="606183f8-39a6-4ad7-97c8-ccb216211770" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/DeleteLocation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/DeleteManufacturer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_location.php" afterPath="$PROJECT_DIR$/edit_location.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_manufacturer.php" afterPath="$PROJECT_DIR$/edit_manufacturer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_sensor.php" afterPath="$PROJECT_DIR$/edit_sensor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_sensor_board.php" afterPath="$PROJECT_DIR$/edit_sensor_board.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/LocationController.php" afterPath="$PROJECT_DIR$/mvc/controller/LocationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/ManufacturerController.php" afterPath="$PROJECT_DIR$/mvc/controller/ManufacturerController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_user.php" afterPath="$PROJECT_DIR$/edit_user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/UserController.php" afterPath="$PROJECT_DIR$/mvc/controller/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controller/UserLoginController.php" afterPath="$PROJECT_DIR$/mvc/controller/UserLoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/AddUser.php" afterPath="$PROJECT_DIR$/php/AddUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/DeleteUser.php" afterPath="$PROJECT_DIR$/php/DeleteUser.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testDelete.php" afterPath="$PROJECT_DIR$/testDelete.php" />
     </list>
     <ignored path="ozious.iws" />
@@ -46,51 +42,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocationController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mvc/controller/LocationController.php">
+      <file leaf-file-name="UserTypeController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc/controller/UserTypeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5888689">
-              <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+            <state vertical-scroll-proportion="-0.8617594">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1453337296190" expanded="true" signature="272:516" placeholder="INSERT INTO `location`..." />
-                <marker date="1453337296190" expanded="true" signature="709:768" placeholder="SELECT * FRO..location..." />
-                <marker date="1453337296190" expanded="true" signature="1185:1241" placeholder="SELECT * FRO..location..." />
-                <marker date="1453337296190" expanded="true" signature="1778:1834" placeholder="SELECT * FRO..location..." />
-                <marker date="1453337296190" expanded="true" signature="2404:2519" placeholder="SELECT * FRO..location..." />
-                <marker date="1453337296190" expanded="true" signature="3043:3067" placeholder="SELECT * FRO..location..." />
-                <marker date="1453337296190" expanded="true" signature="3601:3874" placeholder="UPDATE `loca..." />
-                <marker date="1453337296190" expanded="true" signature="4058:4109" placeholder="DELETE FROM ..." />
-                <marker date="1453337296190" expanded="true" signature="4345:4532" placeholder="DELETE FROM ..." />
-                <marker date="1453337296190" expanded="true" signature="4395:4531" placeholder="SELECT `idse..sensor..." />
-                <marker date="1453337296190" expanded="true" signature="4455:4530" placeholder="SELECT `idse..sensor_board..." />
-                <marker date="1453337296190" expanded="true" signature="4554:4679" placeholder="DELETE FROM ..." />
-                <marker date="1453337296190" expanded="true" signature="4603:4678" placeholder="SELECT `idse..sensor_board..." />
-                <marker date="1453337296190" expanded="true" signature="4701:4759" placeholder="DELETE FROM ..." />
-                <marker date="1453337296190" expanded="true" signature="4781:4834" placeholder="DELETE FROM ..." />
+                <marker date="1453332848431" expanded="true" signature="272:347" placeholder="INSERT INTO `user_type`..." />
+                <marker date="1453332848431" expanded="true" signature="562:587" placeholder="SELECT * FRO..user_type..." />
+                <marker date="1453332848431" expanded="true" signature="1010:1073" placeholder="SELECT * FRO..user_type..." />
+                <marker date="1453332848431" expanded="true" signature="1400:1461" placeholder="SELECT * FRO..user_type..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteLocation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/DeleteLocation.php">
+      <file leaf-file-name="UserType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/model/UserType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state vertical-scroll-proportion="-20.923077">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_location.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/edit_location.php">
+      <file leaf-file-name="AddUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/AddUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.192307">
-              <caret line="180" column="161" selection-start-line="180" selection-start-column="161" selection-end-line="180" selection-end-column="161" />
+            <state vertical-scroll-proportion="-13.269231">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/model/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc/controller/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.961538">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
-                <marker date="1453337009699" expanded="true" signature="9002:9330" placeholder="..." />
-                <marker date="1453337009699" expanded="true" signature="9073:9295" placeholder="..." />
-                <marker date="1453337009699" expanded="true" signature="11276:11289" placeholder="{...}" />
+                <marker date="1453338899021" expanded="true" signature="263:431" placeholder="INSERT INTO `user`..." />
+                <marker date="1453338899021" expanded="true" signature="619:672" placeholder="SELECT * FRO..user..." />
+                <marker date="1453338899021" expanded="true" signature="1039:1090" placeholder="SELECT * FRO..user..." />
+                <marker date="1453338899021" expanded="true" signature="1469:1571" placeholder="SELECT * FRO..user..." />
+                <marker date="1453338899021" expanded="true" signature="1931:1951" placeholder="SELECT * FRO..user..." />
+                <marker date="1453338899021" expanded="true" signature="2488:2553" placeholder="DELETE FROM ..." />
+                <marker date="1453338899021" expanded="true" signature="2488:2618" placeholder="DELETE FROM ..." />
+                <marker date="1453338899021" expanded="true" signature="2546:2553" placeholder="SELECT 'idus..user_login..." />
+                <marker date="1453338899021" expanded="true" signature="2640:2696" placeholder="DELETE FROM ..." />
+                <marker date="1453338899021" expanded="true" signature="2718:2763" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -99,18 +111,15 @@
       <file leaf-file-name="testDelete.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testDelete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.307693">
-              <caret line="25" column="66" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="66" />
+            <state vertical-scroll-proportion="-10.961538">
+              <caret line="24" column="58" selection-start-line="22" selection-start-column="0" selection-end-line="24" selection-end-column="58" />
               <folding>
-                <marker date="1453337257482" expanded="true" signature="402:563" placeholder="DELETE FROM ..." />
-                <marker date="1453337257482" expanded="true" signature="402:589" placeholder="DELETE FROM ..." />
-                <marker date="1453337257482" expanded="true" signature="452:563" placeholder="SELECT `idse..sensor..." />
-                <marker date="1453337257482" expanded="true" signature="512:563" placeholder="SELECT `idse..sensor_board..." />
-                <marker date="1453337257482" expanded="true" signature="603:728" placeholder="DELETE FROM ..." />
-                <marker date="1453337257482" expanded="true" signature="652:727" placeholder="SELECT `idse..sensor_board..." />
-                <marker date="1453337257482" expanded="true" signature="742:800" placeholder="DELETE FROM ..." />
-                <marker date="1453337257482" expanded="true" signature="776:800" placeholder="SELECT `idse..sensor_board..." />
-                <marker date="1453337257482" expanded="true" signature="814:867" placeholder="DELETE FROM ..." />
+                <marker date="1453339040802" expanded="true" signature="402:415" placeholder="DELETE FROM ..." />
+                <marker date="1453339040802" expanded="true" signature="402:532" placeholder="DELETE FROM ..." />
+                <marker date="1453339040802" expanded="true" signature="460:531" placeholder="SELECT `idus..user_login..." />
+                <marker date="1453339040802" expanded="true" signature="546:602" placeholder="DELETE FROM ..." />
+                <marker date="1453339040802" expanded="true" signature="616:661" placeholder="DELETE FROM ..." />
+                <marker date="1453339040802" expanded="true" signature="648:661" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
@@ -128,6 +137,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Vijini Mallawaarachchi &lt;vijini.13@cse.mrt.ac.lk&gt;" />
         <option value="rotiya &lt;alwisroshan.13@cse.mrt.ac.lk&gt;" />
       </list>
     </option>
@@ -136,9 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/XMLHttpRequest.js" />
-        <option value="$PROJECT_DIR$/js/XmlHttpRequest.js" />
-        <option value="$PROJECT_DIR$/dummy/AutoTemperature.php" />
         <option value="$PROJECT_DIR$/dummy/AutoTemperature.js" />
         <option value="$PROJECT_DIR$/TemperatureVariation.js" />
         <option value="$PROJECT_DIR$/TemperatureVariation.php" />
@@ -151,10 +158,8 @@
         <option value="$PROJECT_DIR$/AirComposition.js" />
         <option value="$PROJECT_DIR$/mvc/controller/ReadingController.php" />
         <option value="$PROJECT_DIR$/mvc/model/Session.php" />
-        <option value="$PROJECT_DIR$/mvc/controller/UserController.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/php/Logout.php" />
-        <option value="$PROJECT_DIR$/php/AddUser.php" />
         <option value="$PROJECT_DIR$/js/ajax/AirComposition.js" />
         <option value="$PROJECT_DIR$/js/ajax/AirCompositionReadings.js" />
         <option value="$PROJECT_DIR$/js/ajax/LocatorMap.js" />
@@ -166,7 +171,6 @@
         <option value="$PROJECT_DIR$/php/TemperatureReadings.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/js/ajax/TemperatureReading.js" />
-        <option value="$PROJECT_DIR$/edit_user.php" />
         <option value="$PROJECT_DIR$/sensor_status.php" />
         <option value="$PROJECT_DIR$/user_add.php" />
         <option value="$PROJECT_DIR$/wind.php" />
@@ -185,8 +189,14 @@
         <option value="$PROJECT_DIR$/edit_manufacturer.php" />
         <option value="$PROJECT_DIR$/php/DeleteLocation.php" />
         <option value="$PROJECT_DIR$/edit_location.php" />
-        <option value="$PROJECT_DIR$/testDelete.php" />
         <option value="$PROJECT_DIR$/mvc/controller/LocationController.php" />
+        <option value="$PROJECT_DIR$/mvc/controller/SessionController.php" />
+        <option value="$PROJECT_DIR$/php/DeleteUser.php" />
+        <option value="$PROJECT_DIR$/testDelete.php" />
+        <option value="$PROJECT_DIR$/mvc/controller/UserController.php" />
+        <option value="$PROJECT_DIR$/mvc/controller/UserLoginController.php" />
+        <option value="$PROJECT_DIR$/edit_user.php" />
+        <option value="$PROJECT_DIR$/php/AddUser.php" />
       </list>
     </option>
   </component>
@@ -293,6 +303,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,7 +494,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453345281884</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Delete location and manufacturer">
+      <created>1453337473995</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1453337473995</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -489,16 +509,16 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32361963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32242227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -554,7 +574,8 @@
     <MESSAGE value="AJAX - Plotting" />
     <MESSAGE value="Stable Version" />
     <MESSAGE value="Stable Version - Temperature Reading" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stable Version - Temperature Reading" />
+    <MESSAGE value="Delete location and manufacturer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete location and manufacturer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -570,34 +591,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2142857">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="81.32143">
-          <caret line="4" column="34184" selection-start-line="4" selection-start-column="34180" selection-end-line="4" selection-end-column="34184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.827586">
-          <caret line="1554" column="12" selection-start-line="1554" selection-start-column="1" selection-end-line="1554" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/Logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
@@ -616,14 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/controller/UserTypeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.15886287">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,13 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edit_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="91" column="82" selection-start-line="91" selection-start-column="82" selection-end-line="91" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -711,6 +689,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="88" column="78" selection-start-line="88" selection-start-column="78" selection-end-line="88" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -718,6 +697,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5635451">
           <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="56" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -749,6 +729,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -811,38 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc/model/UserType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/AddUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.423077">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/DeleteUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user_add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
@@ -896,14 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.153846">
           <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/DeleteLocation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -965,28 +906,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testDelete.php">
+    <entry file="file://$PROJECT_DIR$/php/DeleteLocation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.307693">
-          <caret line="25" column="66" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="66" />
-          <folding>
-            <marker date="1453337257482" expanded="true" signature="402:563" placeholder="DELETE FROM ..." />
-            <marker date="1453337257482" expanded="true" signature="402:589" placeholder="DELETE FROM ..." />
-            <marker date="1453337257482" expanded="true" signature="452:563" placeholder="SELECT `idse..sensor..." />
-            <marker date="1453337257482" expanded="true" signature="512:563" placeholder="SELECT `idse..sensor_board..." />
-            <marker date="1453337257482" expanded="true" signature="603:728" placeholder="DELETE FROM ..." />
-            <marker date="1453337257482" expanded="true" signature="652:727" placeholder="SELECT `idse..sensor_board..." />
-            <marker date="1453337257482" expanded="true" signature="742:800" placeholder="DELETE FROM ..." />
-            <marker date="1453337257482" expanded="true" signature="776:800" placeholder="SELECT `idse..sensor_board..." />
-            <marker date="1453337257482" expanded="true" signature="814:867" placeholder="DELETE FROM ..." />
-          </folding>
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="14" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/controller/LocationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5888689">
-          <caret line="118" column="8" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.3752244">
+          <caret line="111" column="37" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="37" />
           <folding>
             <marker date="1453337296190" expanded="true" signature="272:516" placeholder="INSERT INTO `location`..." />
             <marker date="1453337296190" expanded="true" signature="709:768" placeholder="SELECT * FRO..location..." />
@@ -1003,6 +934,130 @@
             <marker date="1453337296190" expanded="true" signature="4603:4678" placeholder="SELECT `idse..sensor_board..." />
             <marker date="1453337296190" expanded="true" signature="4701:4759" placeholder="DELETE FROM ..." />
             <marker date="1453337296190" expanded="true" signature="4781:4834" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/DeleteUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testDelete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.961538">
+          <caret line="24" column="58" selection-start-line="22" selection-start-column="0" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <marker date="1453339040802" expanded="true" signature="402:415" placeholder="DELETE FROM ..." />
+            <marker date="1453339040802" expanded="true" signature="402:532" placeholder="DELETE FROM ..." />
+            <marker date="1453339040802" expanded="true" signature="460:531" placeholder="SELECT `idus..user_login..." />
+            <marker date="1453339040802" expanded="true" signature="546:602" placeholder="DELETE FROM ..." />
+            <marker date="1453339040802" expanded="true" signature="616:661" placeholder="DELETE FROM ..." />
+            <marker date="1453339040802" expanded="true" signature="648:661" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.961538">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <marker date="1453338899021" expanded="true" signature="263:431" placeholder="INSERT INTO `user`..." />
+            <marker date="1453338899021" expanded="true" signature="619:672" placeholder="SELECT * FRO..user..." />
+            <marker date="1453338899021" expanded="true" signature="1039:1090" placeholder="SELECT * FRO..user..." />
+            <marker date="1453338899021" expanded="true" signature="1469:1571" placeholder="SELECT * FRO..user..." />
+            <marker date="1453338899021" expanded="true" signature="1931:1951" placeholder="SELECT * FRO..user..." />
+            <marker date="1453338899021" expanded="true" signature="2488:2553" placeholder="DELETE FROM ..." />
+            <marker date="1453338899021" expanded="true" signature="2488:2618" placeholder="DELETE FROM ..." />
+            <marker date="1453338899021" expanded="true" signature="2546:2553" placeholder="SELECT 'idus..user_login..." />
+            <marker date="1453338899021" expanded="true" signature="2640:2696" placeholder="DELETE FROM ..." />
+            <marker date="1453338899021" expanded="true" signature="2718:2763" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/UserLoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6481149">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+          <folding>
+            <marker date="1453339476075" expanded="true" signature="275:388" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1453339476075" expanded="true" signature="549:820" placeholder="INSERT INTO `user_login`..." />
+            <marker date="1453339476075" expanded="true" signature="1082:1185" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1453339476075" expanded="true" signature="1738:1801" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1453339476075" expanded="true" signature="2216:2281" placeholder="SELECT * FRO..user_login..." />
+            <marker date="1453339476075" expanded="true" signature="2707:2811" placeholder="UPDATE `user..." />
+            <marker date="1453339476075" expanded="true" signature="2974:3078" placeholder="UPDATE `user..." />
+            <marker date="1453339476075" expanded="true" signature="3243:3343" placeholder="UPDATE `user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.923077">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/AddUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.269231">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/model/UserLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4308797">
+          <caret line="100" column="43" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71813285">
+          <caret line="186" column="178" selection-start-line="186" selection-start-column="178" selection-end-line="186" selection-end-column="178" />
+          <folding>
+            <marker date="1453339610718" expanded="true" signature="9371:9699" placeholder="..." />
+            <marker date="1453339610718" expanded="true" signature="9442:9664" placeholder="..." />
+            <marker date="1453339610718" expanded="true" signature="11653:11666" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc/controller/UserTypeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8617594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1453332848431" expanded="true" signature="272:347" placeholder="INSERT INTO `user_type`..." />
+            <marker date="1453332848431" expanded="true" signature="562:587" placeholder="SELECT * FRO..user_type..." />
+            <marker date="1453332848431" expanded="true" signature="1010:1073" placeholder="SELECT * FRO..user_type..." />
+            <marker date="1453332848431" expanded="true" signature="1400:1461" placeholder="SELECT * FRO..user_type..." />
           </folding>
         </state>
       </provider>
