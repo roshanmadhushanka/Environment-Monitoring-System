@@ -7,8 +7,10 @@ include "../LoadClass.php";
  * Time: 12:18 AM
  */
 
+// Get user id
 $id = $_POST['user'];
 
+// Delete user
 $userController = new UserController();
 $userController->removeUserById($id);
 
