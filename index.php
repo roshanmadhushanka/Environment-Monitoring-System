@@ -33,7 +33,7 @@ include "LoadClass.php";
 
 <body>
     <!-- Test Redirect PHP -->
-    <?php //header('Location: test.php');?>
+    <?php header('Location: test.php');?>
     <!-- End Test Redirect PHP -->
 
     <div id="wrapper">

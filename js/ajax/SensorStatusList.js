@@ -34,7 +34,7 @@ function showSensorStatus(){
 
     if(xmlHttp.readyState == 4 || xmlHttp.readyState == 0){
         var status = document.getElementById("status_type").value;
-        xmlHttp.open("GET", "http://localhost/ozious/php/SensorStatusList.php?status="+status, true);
+        xmlHttp.open("GET", "http://localhost/Environment-Monitoring-System/php/SensorStatusList.php?status="+status, true);
         xmlHttp.onreadystatechange = handleServerResponse;
         xmlHttp.send(null);
         setTimeout('showTemperature()', 1000);

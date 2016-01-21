@@ -93,6 +93,7 @@ if(isset($_SESSION['sensor_board_add_stat'])){
                                     <li><a href="location_add.php">Add Location</a></li>
                                     <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
                                     <li><a href="edit_location.php">Remove Location</a></li>
+                                    <li><a href="sensor_status.php">Sensor Status</a></li>
                                 </ul>
                             </li>
 

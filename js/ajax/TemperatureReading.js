@@ -35,7 +35,7 @@ function showTemperature(){
     if(xmlHttp.readyState == 4 || xmlHttp.readyState == 0){
         var loc = document.getElementById("location").value;
         var date = document.getElementById("date").value;
-        xmlHttp.open("GET", "http://localhost/ozious/php/TemperatureReadings.php?loc="+loc+"&date=2016-01-15", true);
+        xmlHttp.open("GET", "http://localhost/Environment-Monitoring-System/php/TemperatureReadings.php?loc="+loc+"&date=2016-01-21", true);
         xmlHttp.onreadystatechange = handleServerResponse;
         xmlHttp.send(null);
         setTimeout('showTemperature()', 1000);
@@ -59,7 +59,6 @@ function handleServerResponse(){
             tot = tot.toFixed(2);
             $.plot($("#flot-line-chart-moving"), [ res ]);
             document.getElementById("avgtemperature").innerHTML = '<span>'+ tot +'</span>';
-            //alert(message);
         }else{
             alert("Something went wrong");
         }

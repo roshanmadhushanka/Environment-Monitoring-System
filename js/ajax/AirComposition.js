@@ -34,7 +34,7 @@ function getAirComposition(){
     if(xmlHttp.readyState == 4 || xmlHttp.readyState == 0){
         loc = encodeURIComponent(document.getElementById("location").value);
         date = encodeURIComponent(document.getElementById("date").value);
-        xmlHttp.open("GET", "http://localhost/ozious/php/AirComposition.php?loc="+loc+"&date="+date, true);
+        xmlHttp.open("GET", "http://localhost/Environment-Monitoring-System/php/AirComposition.php?loc="+loc+"&date="+date, true);
         xmlHttp.onreadystatechange = handleServerResponse;
         xmlHttp.send(null);
     }else{

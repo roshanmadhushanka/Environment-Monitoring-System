@@ -35,7 +35,7 @@ function showLocation(){
     if(xmlHttp.readyState == 4 || xmlHttp.readyState == 0){
         alert("Roshan");
         var address = document.getElementById("address").value;
-        xmlHttp.open("GET", "http://localhost/ozious/php/LocatorMap.php?address="+address, true);
+        xmlHttp.open("GET", "http://localhost/Environment-Monitoring-System/php/LocatorMap.php?address="+address, true);
         xmlHttp.onreadystatechange = handleServerResponse;
         xmlHttp.send(null);
     }else{
