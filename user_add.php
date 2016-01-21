@@ -74,20 +74,25 @@
                                 <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
                             </ul>
                         </li>
+                        <?php if($_SESSION['user_level_id']==1){ ?>
+                            <li>
+                                <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li><a href="device_add.php">Add Sensor</a></li>
+                                    <li><a href="board_add.php">Add Sensor Board</a></li>
+                                    <li><a href="edit_sensor.php">Remove Sensor</a></li>
+                                    <li><a href="edit_sensor_board.php">Remove Sensor Board</a></li>
+                                    <li><a href="manufacturer_add.php">Add Manufacturer</a></li>
+                                    <li><a href="location_add.php">Add Location</a></li>
+                                    <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
+                                    <li><a href="edit_location.php">Remove Location</a></li>
+                                </ul>
+                            </li>
 
-                        <li>
-                            <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li><a href="device_add.php">Add Sensor</a></li>
-                                <li><a href="board_add.php">Add Sensor Board</a></li>
-                                <li><a href="edit_sensor.php">Edit/Remove Sensor</a></li>
-                                <li><a href="edit_sensor_board.php">Edit/Remove Sensor Board</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
-                        </li>
+                            <li>
+                                <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
+                            </li>
+                        <?php } ?>
                     </ul>
                 </div>
             </nav>
@@ -182,10 +187,12 @@
                                         <div class="col-sm-10"><input type="password" name="confirm_password" class="form-control" required></div>
                                     </div>
 
-                                    <div class="form-group" id="data_2">
-                                        <label class="col-sm-2 control-label">Birthday</label>
-                                        <div class="input-group date">
-                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" name="birthday" class="form-control" value="08/25/2014">
+                                    <div class="form-group"><label class="col-sm-2 control-label">Select User Type</label>
+                                        <div class="col-sm-10"><select class="form-control m-b" name="user_type">
+                                                <option disabled selected>- Select a user type -</option>
+                                                <option value="1">Admin</option>
+                                                <option value="2">Guest</option>
+                                            </select>
                                         </div>
                                     </div>
 
@@ -200,7 +207,29 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins">
+                            <div class="ibox-title">
+                                <h5>Remove a user<small>  from the system </small></h5>
+                            </div>
+                            <div class="ibox-content">
+                                <form class="form-horizontal" action="edit_user.php">
+                                    <div class="form-group" >
+                                        <div class="col-sm-4 col-sm-offset-2">
+                                            <input type="submit" class="btn btn-primary" value="Select a user to delete" >
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+
+            </div>
 </div>
 
 

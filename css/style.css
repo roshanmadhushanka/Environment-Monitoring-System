@@ -200,6 +200,7 @@ h5 {
   height: 60px;
   margin: 0;
   z-index: 2000;
+    width: 100px;
 }
 .count-info .label {
   line-height: 12px;
@@ -811,6 +812,7 @@ button.dim:active:before {
   font-weight: 600;
   padding: 3px 8px;
   text-shadow: none;
+  text-align: right;
 }
 .badge {
   background-color: #d1dade;
@@ -1507,7 +1509,7 @@ table.dataTable thead .sorting:after {
   display: inline-block !important;
 }
 .input-s-sm {
-  width: 120px;
+  width: 50px;
 }
 .input-s {
   width: 200px;
@@ -1559,7 +1561,7 @@ table.dataTable thead .sorting:after {
   font-weight: 400;
   line-height: 1;
   padding: 6px 12px;
-  text-align: center;
+  text-align: left;
 }
 .spinner-buttons.input-group-btn .btn-xs {
   line-height: 1.13;
@@ -2463,6 +2465,7 @@ table.table-mail tr td {
   margin-right: -40px;
 }
 .m-b-none {
+    width: 100px;
   margin-bottom: 0;
 }
 .m-b-xxs {
@@ -2478,6 +2481,7 @@ table.table-mail tr td {
   margin-bottom: 15px;
 }
 .m-b-md {
+    width: 100px;
   margin-bottom: 20px;
 }
 .m-b-lg {
@@ -2659,10 +2663,11 @@ ul.clear-list:first-child {
   border-bottom: 1px solid #e7eaec;
   border-left: 1px solid #e7eaec;
   background: #f8f8f8;
+
 }
 .timeline-item .date {
   text-align: right;
-  width: 110px;
+  width: 100px;
   position: relative;
   padding-top: 30px;
 }

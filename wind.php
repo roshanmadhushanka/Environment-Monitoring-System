@@ -1,4 +1,3 @@
-
 <?php
     session_start();
     include "LoadClass.php";
@@ -56,6 +55,9 @@
                                             $user = $userController->selectByID($_SESSION['current_user_id']);
                                             echo $user->getFirstName().' '.$user->getLastName();
                                         }
+                                        else{
+                                            header('Location:http://localhost/Environment-Monitoring-System/login.php');
+                                        }
                                         ?>
                                     </strong>
                              </span>
@@ -87,20 +89,25 @@
                         <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
                     </ul>
                 </li>
+                <?php if(isset($_SESSION['user_level_id']) && $_SESSION['user_level_id']==1){ ?>
+                    <li>
+                        <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="device_add.php">Add Sensor</a></li>
+                            <li><a href="board_add.php">Add Sensor Board</a></li>
+                            <li><a href="edit_sensor.php">Remove Sensor</a></li>
+                            <li><a href="edit_sensor_board.php">Remove Sensor Board</a></li>
+                            <li><a href="manufacturer_add.php">Add Manufacturer</a></li>
+                            <li><a href="location_add.php">Add Location</a></li>
+                            <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
+                            <li><a href="edit_location.php">Remove Location</a></li>
+                        </ul>
+                    </li>
 
-                <li>
-                    <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li><a href="device_add.php">Add Sensor</a></li>
-                        <li><a href="board_add.php">Add Sensor Board</a></li>
-                        <li><a href="edit_sensor.php">Edit/Remove Sensor</a></li>
-                        <li><a href="edit_sensor_board.php">Edit/Remove Sensor Board</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
-                </li>
+                    <li>
+                        <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
+                    </li>
+                <?php } ?>
             </ul>
         </div>
     </nav>
@@ -179,9 +186,11 @@
                                 </div>
                                 <div class="form-group" id="data_2">
                                     <label class="col-sm-2 control-label">Select Date</label>
-                                    <div class="input-group date">
-                                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                        <input type="text" class="form-control" value="12/17/2015" name="date" id="date" onchange="getAirComposition()">
+                                    <div class="col-sm-10">
+                                        <div class="input-group date">
+                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                            <input type="text" class="form-control" value="12/17/2015" name="date" id="date" onchange="getAirComposition()">
+                                        </div>
                                     </div>
                                 </div>
                             </form>

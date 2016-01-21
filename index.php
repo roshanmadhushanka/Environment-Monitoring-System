@@ -3,9 +3,10 @@ session_start();
 include "LoadClass.php";
 ?>
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 
 <head>
+
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,9 +41,10 @@ include "LoadClass.php";
             <div class="sidebar-collapse">
                 <ul class="nav" id="side-menu">
                     <li class="nav-header">
-                        <div class="dropdown profile-element"> <span>
-                            <img alt="image" class="img-circle" src="img/profile_small.jpg" />
-                             </span>
+                        <div class="dropdown profile-element">
+                            <span>
+                                <img alt="image" class="img-circle" src="img/profile_small.jpg" />
+                            </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="index.php#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">
                                         <?php
@@ -50,6 +52,10 @@ include "LoadClass.php";
                                                 $userController = new UserController();
                                                 $user = $userController->selectByID($_SESSION['current_user_id']);
                                                 echo $user->getFirstName().' '.$user->getLastName();
+                                            }
+                                            else{
+                                                echo '<script> show_popup(); </script>';
+                                                header('Location:http://localhost/Environment-Monitoring-System/login.php');
                                             }
                                         ?>
                              </strong>
@@ -82,21 +88,25 @@ include "LoadClass.php";
                             <li><a href="wind.php">Wind,Air Pressure & Quality</a></li>
                         </ul>
                     </li>
+                    <?php if(isset($_SESSION['user_level_id']) && $_SESSION['user_level_id']==1){ ?>
+                        <li>
+                            <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="device_add.php">Add Sensor</a></li>
+                                <li><a href="board_add.php">Add Sensor Board</a></li>
+                                <li><a href="edit_sensor.php">Remove Sensor</a></li>
+                                <li><a href="edit_sensor_board.php">Remove Sensor Board</a></li>
+                                <li><a href="manufacturer_add.php">Add Manufacturer</a></li>
+                                <li><a href="location_add.php">Add Location</a></li>
+                                <li><a href="edit_manufacturer.php">Remove Manufacturer</a></li>
+                                <li><a href="edit_location.php">Remove Location</a></li>
+                            </ul>
+                        </li>
 
-                    <li>
-                        <a href="index.php#"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Manage Devices</span><span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a href="device_add.php">Add Sensor</a></li>
-                            <li><a href="board_add.php">Add Sensor Board</a></li>
-                            <li><a href="edit_sensor.php">Edit/Remove Sensor</a></li>
-                            <li><a href="edit_sensor_board.php">Edit/Remove Sensor Board</a></li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
-
-                    </li>
+                        <li>
+                            <a href="user_add.php"><i class="fa fa-envelope"></i> <span class="nav-label">Manage Accounts</span></a>
+                        </li>
+                    <?php } ?>
 
                 </ul>
 
@@ -308,8 +318,6 @@ include "LoadClass.php";
     <!-- ChartJS-->
     <script src="js/plugins/chartJs/Chart.min.js"></script>
 
-
-
     <script>
         $(document).ready(function() {
             WinMove();
@@ -467,6 +475,17 @@ include "LoadClass.php";
         ga('create', 'UA-4625583-2', 'webapplayers.com');
         ga('send', 'pageview');
 
+    </script>
+
+    <script type="text/javascript">
+        function show_popup() {
+            var p = window.createPopup()
+            var pbody = p.document.body
+            pbody.style.backgroundColor = "lime"
+            pbody.style.border = "solid black 1px"
+            pbody.innerHTML = "This is a pop-up! Click outside to close."
+            p.show(150,150,200,50,document.body)
+        }
     </script>
 </body>
 </html>

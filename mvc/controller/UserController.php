@@ -56,5 +56,19 @@ class UserController
         return $u;
     }
 
+    public function selectAll(){
+        $query = "SELECT * FROM `user`";
+
+        $users = array();
+        $this->con->openConnection();
+        if($result = $this->con->executeRawQuery($query)){
+            while($row = $result->fetch_array()){
+                $user_object = new User($row['iduser'], $row['first_name'], $row['last_name'], $row['initials'], $row['nic']);
+                $users[] = $user_object;
+            }
+        }
+        $this->con->closeConnection();
+        return $users;
+    }
 
 }

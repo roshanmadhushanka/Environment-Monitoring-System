@@ -13,6 +13,7 @@ $initials = $_POST['initials'];
 $nic = $_POST['nic'];
 $username = $_POST['user_name'];
 $password = $_POST['password'];
+$type = $_POST['user_type'];
 
 echo $first_name.'<br>'.$last_name.'<br>'.$initials.'<br>'.$username.'<br>'.$password;
 
@@ -22,7 +23,8 @@ $userController->insert($user);
 $user = $userController->selectByNic($nic);
 
 $userTypeController = new UserTypeController();
-$userType = $userTypeController->selectByName('Admin');
+
+$userType = $userTypeController->selectByName($type->getDescription());
 
 $userLoginController = new UserLoginController();
 $userLogin = new UserLogin('', $user->getIduser(), $username, $password, 1, $userType->getIduserType());
